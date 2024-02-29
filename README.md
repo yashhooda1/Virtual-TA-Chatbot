@@ -6,6 +6,10 @@ This purpose of this project was to build a Virtual TA chatbot that can assist p
 Instructions for running this bot
 1. Open command prompt and change the directory path to the pathway of the folder where the chatbot is located and run the following commands. Make sure you have python 3.4 or newer installed or else it won't run.
 
+# To change the directory path
+cd C:\Users\yashh\OneDrive\Desktop\CS 4485\Chatbot
+
+#change to rasa env
 python3 -m venv rasa_env
 
 # Activate the virtual environment
