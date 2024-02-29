@@ -9,7 +9,7 @@ Instructions for running this bot
 # To change the directory path
 cd C:\Users\yashh\OneDrive\Desktop\CS 4485\Chatbot
 
-# change to rasa env
+# Change to rasa env
 python3 -m venv rasa_env
 
 # Activate the virtual environment
