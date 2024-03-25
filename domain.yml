@@ -1,0 +1,303 @@
+version: "3.1"
+
+intents:
+- greet
+- goodbye
+- ask_weather
+- get_weather
+- gpa
+- undergraduategpa
+- graduategpa
+- enrollment_apt
+- grad_commence
+- commencement_duration
+- events
+- temoc
+- housing_meal
+- take_future_class
+- cometdefinition
+- utdhistory
+- richardbenson
+- deanofstudents
+- studentsuccesscenter
+- utdlibrary
+- elearning
+- galaxy
+
+
+entities:
+- city
+
+slots:
+
+ city:
+  type: text
+  mappings:
+   - type: from_entity
+     entity: city
+
+responses:
+ utter_greet:
+- text: "Hello Comet! How can I assist you?💫"
+- text: 'Hey! How are you comet?💫'
+- text: 'Hey there comet!💫'
+- text: 'Hey comet how can I assist you today?💫'
+
+utter_goodbye:
+- text: "Bye Comet💫"
+- text: "Have a wonderful day Comet!💫"
+
+utter_ask_weather:
+- text: "Sure, can you specify the city?"
+
+utter_gpa:
+- text: "Sure, are you a graduate or undergraduate student?"
+
+
+utter_undergraduategpa:
+- text: "The grade scale for an undergraduate student is as follows: \n
+A+ & A = 4.000, A- = 3.670, B+ = 3.330, B = 3.000,
+B- = 2.670, C+ = 2.330, C = 2.000, C- = 1.670, C- = 1.670,
+D+ = 1.330, D = 1.000, D- = 0.670, F = 0.000. \n
+To calculate your GPA for the semester,
+multiply the number of credit hours for a specific class
+by the letter grade point listed above. Do that for each class
+then divide that total by the number of credit hours you are taking this semester
+to calculate your GPA. You can also use this website: https://fye.utdallas.edu/gpa-calculator/"
+
+utter_graduategpa:
+- text: "You are an graduate student"
+
+utter_enrollment_apt:
+- text: "During registration periods, the enrollment appointment is your date and time slot you are able
+to registration for the term. \n
+To locate your enrollment appointment, go to your UTD Student Center, Manage My Class tile,
+Enrollment Appointments page and select the appropriate term. \n
+Register for classes after your enrollment appointment begins for the term. Online registration is
+available until the published last day of late registration."
+
+utter_grad_commence:
+- text: "Commencement refers to the ceremony, which is an opportunity for students to celebrate their
+academic accomplishments with their peers, family and friends. \n
+Participation in commencement does not guarantee or indicate degree completion. \n
+Graduation is a four-step process consisting of applying for graduation, updating your diploma name
+and address in Orion, completing all academic requirements and settling all financial obligations."
+
+utter_commencement_duration:
+- text: "Each Commencement Ceremony lasts approximately 1.5 to 2 hours."
+
+utter_housing_meal:
+- text: "You can view your University Housing and meal plan charges on your student account
+statement via the Bursar Office EZPay page. You may pay those charges directly to the Bursar Office
+using one of their various payment options."
+
+utter_take_future_class:
+- text: "Your flowchart will help you to identify classes which you are eligible to take each semester. \n
+1. Download or print your degree flowchart. \n
+2. Pull up your course history in ORION Student Center > My Academics. \n
+3. On your flowchart, cross off all the classes you have completed and are enrolled in, follow the arrows
+and circle all your options for next semester. \n
+• CS/ SE majors: prioritize taking courses that are pre-requisites to more CS/ SE courses. \n
+• BMEN/ MECH/ EE/ CE majors: Prioritize taking courses that are listed on or connected to your
+critical path (thick bold lines on your flowchart). \n
+• After filling out your flowchart, you are always welcome to contact your Academic Advisor to
+confirm your course selections. "
+ actions:
+- action_get_weather
+ 
+utter_events:
+-text: "You can check more information about the upcoming event(s) at https://calendar.utdallas.edu/.
+The UT Dallas website should have more information about the event."
+
+utter_elearning:
+-text: "E-learning also known as Blackboard Collaborate is a tool used by UTD faculty and professors to
+assign and give homeworks/exams and teach courses virtually online when school is not in session. You
+can access e-learning through this link at https://elearning.utdallas.edu/ultra/institution-page. You can
+access e-learning by logging in using your UT Dallas net-id and password."
+
+utter_galaxy:
+-text: "Galaxy is the name of the online student information system used by the University of Texas at
+Dallas (UTD). It is the central platform where students can access various academic and
+administrative services, including registration, course schedules, grades, financial aid information,
+student account details, and more.
+Through Galaxy, students can perform tasks such as:
+Course Registration: Students can search for available courses, add or drop classes, and manage
+their course schedule for upcoming semesters.
+Financial Aid: Galaxy provides access to financial aid information, including applications, status
+updates, and award details. Students can also view and accept financial aid offers through this
+platform.
+Student Records: Galaxy allows students to view their academic records, including grades,
+transcripts, and enrollment history. They can also request official transcripts through the system.
+Billing and Payments: Students can view their account balances, make payments, set up payment
+plans, and manage other financial transactions through Galaxy.
+Degree Planning: Some versions of Galaxy offer degree audit tools that help students track their
+progress toward degree requirements and plan their academic pathway.
+Personal Information Updates: Students can update their contact information, emergency contacts,
+and other personal details through Galaxy.
+Overall, Galaxy serves as a centralized portal for students to access essential academic and
+administrative services at UTD, providing convenience and accessibility to various resources needed
+throughout their academic journey. You can find more information and access to UTD galaxy
+through their website, https://www.utdallas.edu/galaxy/."
+
+utter_temoc:
+-text: "Temoc is the current school mascot of the University of the Texas at Dallas."
+
+utter_cometdefinition:
+-text: "noun
+a celestial object consisting of a nucleus of ice and dust and, when near the sun, a “tail” of gas
+and dust particles pointing away from the sun."
+
+utter_utdhistory:
+-text: "The University of Texas at Dallas (UTD) is a public research university located in Richardson,
+Texas, USA. Here's a brief history of UTD: 
+1. Foundation: UTD was established in 1961 as a private research institution. The founders
+intended it to be a graduate research center for the region, focusing on science, engineering,
+and technology.
+2. Public Institution: In 1969, the university merged with the University of Texas System and
+became a public institution. This move significantly expanded its resources and opportunities
+for growth.
+3. Early Growth and Development: Throughout the 1970s and 1980s, UTD experienced steady
+growth, expanding its academic programs and infrastructure. It gained a reputation for
+excellence in science, engineering, and computer science.
+4. Economic Impact: UTD has played a significant role in the economic development of the
+North Texas region. Its research and technology transfer initiatives have fostered innovation
+and entrepreneurship, contributing to the area's high-tech industry.
+5. Expansion of Programs: Over the years, UTD has expanded its academic offerings to include
+a wide range of disciplines, including business, arts and humanities, social sciences, and
+healthcare-related fields. It has also developed strong programs in areas such as
+nanotechnology, neuroscience, and cybersecurity.
+6. Recognition and Rankings: UTD has gained recognition both nationally and internationally
+for its academic excellence. It consistently ranks among the top universities in the United
+States for its research output and is known for its strong faculty and innovative programs.
+7. Campus Development: The university's campus has undergone significant development and
+expansion, with new academic buildings, research facilities, and student amenities being
+added regularly. The campus features modern architecture and state-of-the-art facilities
+conducive to learning and research.
+8. Community Engagement: UTD is deeply engaged with the local community, collaborating
+with industry partners, government agencies, and nonprofit organizations to address societal
+challenges and promote economic development.
+Overall, the University of Texas at Dallas has evolved into a premier research university with a
+global reputation for excellence in education, research, and innovation. Its commitment to academic
+excellence, research, and community engagement continues to drive its growth and impact."
+
+utter_richardbenson:
+-text: "Richard Benson is the current president of the University of Texas at Dallas. In 2006, he
+became the 4th president the university ever had. During his tenure, UTD experienced significant
+growth and development, expanding its academic programs, research initiatives, and campus
+infrastructure. Under Benson's leadership, UTD strengthened its research capabilities, increased its
+national and international visibility, and enhanced its reputation for academic excellence. He focused
+on fostering interdisciplinary collaborations, promoting innovation and entrepreneurship, and
+improving the student experience."
+
+utter_deanofstudents:
+-text: "The Dean of Students is a senior administrative position within a university or college
+responsible for overseeing various aspects of student life and support services. Here are some key
+responsibilities and roles typically associated with the Dean of Students:
+Student Affairs Oversight: The Dean of Students typically oversees the Office of Student Affairs or a
+similar department responsible for providing a wide range of services and programs to support
+student success and well-being.
+Student Conduct and Discipline: The Dean of Students often oversees the development and
+enforcement of student conduct policies and procedures. They may work closely with conduct
+officers and review disciplinary cases, ensuring fair and consistent outcomes.
+Student Advocacy: The Dean of Students serves as an advocate for students, addressing their
+concerns and advocating for their needs within the institution. They may work to ensure that
+students' voices are heard in decision-making processes and policies.
+Crisis Management and Student Support: In times of crisis or emergencies, such as natural
+disasters or student emergencies, the Dean of Students plays a critical role in coordinating support
+services, providing assistance to affected students, and ensuring the safety and well-being of the
+campus community.
+Student Engagement and Leadership Development: The Dean of Students often oversees programs
+and initiatives aimed at enhancing student engagement, leadership development, and campus
+involvement. This may include overseeing student clubs and organizations, leadership programs,
+and campus events.
+Student Health and Wellness: The Dean of Students may work closely with health and counseling
+services to promote student wellness and mental health. They may oversee initiatives related to
+health education, prevention programs, and access to healthcare services.
+Student Housing and Residence Life: In institutions with on-campus housing, the Dean of Students
+may oversee residence life programs, policies, and facilities. They may work to create a positive
+living and learning environment for students residing on campus.
+Community Outreach and Partnerships: The Dean of Students may collaborate with external
+partners, such as local community organizations and government agencies, to address issues
+affecting students and the broader community.
+Overall, the Dean of Students plays a vital role in creating a supportive and inclusive campus
+environment that promotes student success, well-being, and personal development. They work
+collaboratively with various stakeholders to address the diverse needs of students and enhance the
+overall student experience. You can find more information or report conduct on the UTD dean of
+students website, https://deanofstudents.utdallas.edu/."
+
+utter_studentsuccesscenter:
+-text: "The Student Success Center at the University of Texas at Dallas (UTD) is a central hub
+dedicated to providing comprehensive support services and resources to enhance student success
+and academic achievement. Here's an overview of what the Student Success Center typically
+offers:
+Academic Advising: The Student Success Center provides academic advising services to help
+students navigate their academic journey, including course selection, degree planning, and
+academic goal-setting. Advisors assist students in understanding degree requirements and
+academic policies.
+Tutoring and Supplemental Instruction: The center may offer tutoring services and supplemental
+instruction in various subjects to help students excel in their coursework. This may include drop-in
+tutoring, group study sessions, and workshops on study skills and academic strategies.
+Career Development: The Student Success Center may offer career counseling, workshops, and
+resources to help students explore career options, develop job search strategies, and prepare for
+internships, co-op experiences, and post-graduation employment.
+Student Success Workshops: The center may host workshops and seminars on topics such as time
+management, effective study habits, stress management, and academic skills development to
+support students in achieving their academic and personal goals.
+Academic Support Programs: The Student Success Center may administer academic support
+programs designed to assist specific student populations, such as first-year students, transfer
+students, or students on academic probation. These programs may include mentoring, academic
+coaching, and peer support initiatives.
+Accessibility Services: The center may provide accommodations and support services for students
+with disabilities to ensure equal access to educational opportunities. This may include assistance
+with accommodations, adaptive technology, and disability-related advocacy.
+Student Success Resources: The center may maintain a library of resources, including online
+guides, handouts, and referrals to other campus support services, to help students navigate
+academic challenges and access additional support as needed.
+Student Success Initiatives: The Student Success Center may develop and implement initiatives and
+programs aimed at promoting student retention, persistence, and graduation. This may include early
+alert systems, intervention programs for at-risk students, and initiatives to improve student
+engagement and satisfaction.
+Overall, the Student Success Center at UT Dallas plays a crucial role in supporting student
+achievement, personal development, and overall well-being by providing a wide range of services
+and resources tailored to meet the diverse needs of students. You can find out more about the
+student success center on their website, https://studentsuccess.utdallas.edu/."
+
+utter_utdlibrary:
+-text: "The University of Texas at Dallas (UTD) is home to the Eugene McDermott Library, which
+serves as the central library facility on campus. Here's an overview of the UTD Library:
+Name: Eugene McDermott Library is named after Eugene McDermott, one of the founders of Texas
+Instruments and a significant philanthropist whose contributions helped establish UTD.
+Location: The library is located at the heart of the UTD campus in Richardson, Texas, providing easy
+access to students, faculty, and staff.
+Collections: The library offers extensive collections of print and electronic resources, including
+books, journals, databases, multimedia materials, and special collections. These resources cover a
+wide range of subjects to support teaching, learning, and research across various academic
+disciplines.
+Study Spaces: The library provides a variety of study spaces to accommodate different learning
+preferences and needs. These include quiet study areas, group study rooms, computer labs, and
+collaborative workspaces. The library is designed to offer comfortable and conducive environments
+for individual and group study sessions.
+Technology and Services: Eugene McDermott Library is equipped with modern technology and
+offers a range of services to support research and scholarly activities. This includes access to online
+databases and digital resources, research assistance from librarians, interlibrary loan services,
+printing and copying facilities, and technology lending programs.
+Research Support: Librarians at the UTD Library provide research assistance to help students and
+faculty locate and evaluate information sources, develop research strategies, and properly cite
+sources. They offer individual consultations, workshops, and online guides to support research
+endeavors.
+Events and Programming: The library hosts various events, workshops, and exhibitions throughout
+the year to engage the campus community and promote academic enrichment. These may include
+author talks, lectures, art displays, film screenings, and educational programs related to library
+resources and services.
+Community Engagement: The library actively engages with the UTD community and partners with
+other academic departments, research centers, and community organizations to provide
+comprehensive library services and resources. It serves as a hub for intellectual exchange and
+collaboration within the university and beyond.
+Overall, the Eugene McDermott Library at the University of Texas at Dallas plays a vital role in
+supporting the university's academic mission by providing access to information, fostering research
+and scholarship, and facilitating learning and intellectual inquiry. You can find out more information
+about the UTD library on their website, https://library.utdallas.edu/."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
