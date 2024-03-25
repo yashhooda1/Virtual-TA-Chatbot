@@ -2,6 +2,95 @@ version: "3.1"
 
 stories:
 
+
+- story: undergraduate gpa
+steps:
+- intent: greet
+- action: utter_greet
+- intent: gpa
+- action: utter_gpa
+- intent: undergraduategpa
+- action: utter_undergraduategpa
+- intent: goodbye
+- action: utter_goodbye
+
+- story: graduate gpa
+steps:
+- intent: greet
+- action: utter_greet
+- intent: gpa
+- action: utter_gpa
+- intent: undergraduategpa
+- action: utter_undergraduategpa
+- intent: goodbye
+- action: utter_goodbye
+
+- story: weather
+steps:
+- intent: ask_weather
+- action: utter_ask_weather
+- intent: get_weather
+- action: action_get_weather
+
+- story: enrollment appointment
+steps:
+- intent: greet
+- action: utter_greet
+- intent: enrollment_apt
+- action: utter_enrollment_apt
+
+- story: commencement/graduation
+steps:
+- intent: greet
+- action: utter_greet
+- intent: grad_commence
+- action: utter_grad_commence
+- intent: commencement_duration
+- action: utter_commencement_duration
+
+- story: pay housing/meals
+steps:
+- intent: greet
+- action: utter_greet
+- intent: housing_meal
+- action: utter_housing_meal
+
+- story: future classes
+steps:
+- intent: greet
+- action: utter_greet
+- intent: take_future_class
+- action: utter_take_future_class
+
+- story: what can you help with
+steps:
+- intent: usecase
+- action: utter_usecase
+
+- story: FAQ-hold
+steps:
+- intent: hold
+- action: utter_hold
+- story: FAQ
+steps:
+- intent: transcriptHold
+- action: utter_transcriptHold
+- intent: withrawUTD
+- action: utter_withrawUTD
+- intent: admission1
+- action: utter_admission1
+
+- story: interactive_story_1
+steps:
+- intent: testing
+- action: utter_testing
+- story: interactive_story_2
+steps:
+- intent: transcriptreq
+- action: utter_transcriptreq
+- intent: ask_academic_standing_GPA
+- action: utter_ask_academic_standing_GPA
+
 - story: happy path
   steps:
   - intent: greet
