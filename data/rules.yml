@@ -2,6 +2,122 @@ version: "3.1"
 
 rules:
 
+- rule: admission1
+steps:
+- intent: admission1
+- action: utter_admission1
+
+- rule: admission2
+steps:
+- intent: admission2
+- action: utter_admission2
+
+- rule: admission3
+steps:
+- intent: admission3
+- action: utter_admission3
+
+- rule: admission4
+steps:
+- intent: admission4
+- action: utter_admission4
+
+- rule: admission5
+steps:
+- intent: admission5
+- action: utter_admission5
+
+- rule: admission6
+steps:
+- intent: admission6
+- action: utter_admission6
+
+- rule: admission7
+steps:
+- intent: admission7
+- action: utter_admission7
+
+- rule: admission8
+steps:
+- intent: admission8
+- action: utter_admission8
+
+- rule: admission9
+steps:
+- intent: admission9
+- action: utter_admission9
+
+- rule: admission10
+steps:
+- intent: admission10
+- action: utter_admission10
+
+- rule: admission11
+steps:
+- intent: admission11
+- action: utter_admission11
+
+- rule: admission12
+steps:
+- intent: admission12
+- action: utter_admission12
+
+- rule: admission12
+steps:
+- intent: admission12
+- action: utter_admission12
+
+- rule: admission13
+steps:
+- intent: admission13
+- action: utter_admission13
+
+- rule: admission14
+steps:
+- intent: admission14
+- action: utter_admission14
+
+- rule: admission15
+steps:
+- intent: admission15
+- action: utter_admission15
+
+- rule: admission16
+steps:
+- intent: admission16
+- action: utter_admission16
+
+- rule: admission17
+steps:
+- intent: admission17
+- action: utter_admission17
+
+- rule: admission18
+steps:
+- intent: admission18
+- action: utter_admission18
+
+- rule: admission19
+steps:
+- intent: admission19
+- action: utter_admission19
+
+- rule: admission20
+steps:
+- intent: admission20
+- action: utter_admission20
+
+- rule: admission23
+steps:
+- intent: admission23
+- action: utter_admission23
+
+- rule: admission24
+steps:
+- intent: admission24
+- action: utter_admission2
+
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
