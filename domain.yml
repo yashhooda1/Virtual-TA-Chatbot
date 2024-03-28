@@ -23,6 +23,7 @@ intents:
 - utdlibrary
 - elearning
 - galaxy
+- emergency
 
 
 entities:
