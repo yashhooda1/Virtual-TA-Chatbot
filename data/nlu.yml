@@ -503,3 +503,26 @@ examples: |
 - What's the threshold GPA for staying in good academic standing?
 - What's the GPA requirement to avoid academic probation
 
+- intent: emergency
+examples: |
+- Has anything happeened at UT Dallas today?
+- What is going on on campus?
+- Tornado warning
+- Severe thunderstorm warning
+- campus closed
+- classes cancelled
+- winter storm warning
+- Inclement weather 
+- tornado warning
+- campus shooting
+- shooting
+- lockdown
+- campus lockdown 
+- What is going on at UT Dallas?
+- UT Dallas Emergency
+
+
+
+
+
+
