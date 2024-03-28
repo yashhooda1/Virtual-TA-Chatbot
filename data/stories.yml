@@ -117,3 +117,11 @@ steps:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: emergency 
+steps:
+- intent: emergency
+- action: utter_emergency
+
+
+
