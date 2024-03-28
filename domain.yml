@@ -299,6 +299,18 @@ supporting the university's academic mission by providing access to information,
 and scholarship, and facilitating learning and intellectual inquiry. You can find out more information
 about the UTD library on their website, https://library.utdallas.edu/."
 
+
+utter_emergency: 
+-text: "You can check the https://emergency.utdallas.edu/ for emergency alerts on campus, for faster service, 
+please call 911 if this is an off-campus emergency, the UTD Police number is (972)-883-2222. 
+You can also reach out to emergency management at (972)-883-2420. UTD Alert UT Dallas will send text alerts in the event of an emergency, 
+inclement weather or a disruption in normal operations. The message will be sent to the mobile numbers listed in the records of students, 
+faculty and staff. Parents and others can sign up by texting UTDALERT to 888777."
+
+
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
