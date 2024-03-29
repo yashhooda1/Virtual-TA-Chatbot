@@ -123,5 +123,56 @@ steps:
 - intent: emergency
 - action: utter_emergency
 
+- story: events
+steps:
+- intent: events
+- action: utter_events
+
+- story: elearning
+steps:
+- intent: elearning
+- action: utter_elearning
+
+- story: galaxy
+steps:
+- intent: galaxy
+- action: utter_galaxy
+
+- story: temoc
+steps:
+- intent: temoc
+- action: utter_temoc
+
+- story: cometdefinition
+steps:
+- intent: cometdefinition
+- actions: utter_cometdefinition
+
+- story: utdhistory
+steps:
+- intent: utdhistory
+- actions: utter_utdhistory
+
+- story: richardbenson
+steps:
+- intent: richardbenson
+- actions: utter_richardbenson
+
+- story: deanofstudents
+steps:
+- intent: deanofstudents
+- actions: utter_deanofstudents
+
+- story: studentsuccesscenter
+steps: 
+- intent: studentsuccesscenter
+- actions: utter_studentsuccesscenter
+
+- story: utdlibrary
+steps:
+- intent: utdlibrary
+- actions: utter_utdlibrary
+
+
 
 
