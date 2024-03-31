@@ -24,6 +24,7 @@ intents:
 - elearning
 - galaxy
 - emergency
+- parking
 
 
 entities:
@@ -307,7 +308,26 @@ You can also reach out to emergency management at (972)-883-2420. UTD Alert UT D
 inclement weather or a disruption in normal operations. The message will be sent to the mobile numbers listed in the records of students, 
 faculty and staff. Parents and others can sign up by texting UTDALERT to 888777."
 
-
+utter_parking:
+-text: "Parking at the University of Texas at Dallas (UTD) is managed by the Auxiliary Services. Here’s what you need to know,
+1. Parking Permits -
+Who Can Get Permits? - Current UTD visitors, students, faculty, and staff are eligible for parking permits.
+How to Obtain a Permit? - You can purchase a permit either in person from the Parking Office or online. The Parking Office accepts credit and debit cards, but not cash or checks.
+Types of Permits -
+Students - Orange, Evening Orange, Gold, or Green permits.
+On-Campus Residents - Required to purchase housing permits. They can also get a “combo” permit to park in commuter spaces during the day.
+Faculty and Staff - Purple, Orange, Evening Orange, Gold, or Green permits.
+Permit Privileges - Purchasing a permit allows you to park according to the privileges of the specific permit you bought. However, it doesn’t guarantee a specific parking space.
+Grace Periods -
+Commuter Students, Faculty, and Staff - Green parking is allowed without a permit from the first day of class until Census Day during Fall and Spring semesters. Summer semester requires a permit at all times.
+On-Campus Residents - They can park in their respective housing lots without a permit from scheduled University Housing move-in dates until Census Day.
+Enforcement - All other parking areas are enforced throughout the year, except during grace periods1.
+2. Public Transportation -
+There is no free parking on the UTD campus for students, faculty, or staff.
+If you prefer public transportation, there are nearly 2,000 free parking spaces available at the Cityline/Bush Train Station Park-and-Ride located at 1300 E President George Bush Tpke, Richardson, TX 750822.
+3. Metered Parking - 
+UTD has over 300 cashless, Pay-by-Space metered parking spaces across campus in Parking Structures 1, 3, and 4, as well as Lots F, G, and M West. These spaces allow convenient payment through the Pay-by-Space system3.
+For more details, you can visit the UTD Parking website. Remember to plan ahead and stay informed about lot closures!"
 
 
 
