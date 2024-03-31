@@ -30,3 +30,8 @@ rasa train
 Test your chatbot using the Rasa shell to interact with it in a command-line interface:
 
 rasa shell
+
+
+# To interact with Rasa
+
+rasa interactive
