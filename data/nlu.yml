@@ -521,7 +521,13 @@ examples: |
 - What is going on at UT Dallas?
 - UT Dallas Emergency
 
-
+- intent: parking
+examples: |
+- How to get parking permit at UT Dallas?
+- Parking at UT Dallas?
+- UTD Parking
+- Parking
+- Parking Permit
 
 
 
