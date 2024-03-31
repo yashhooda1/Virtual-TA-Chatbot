@@ -18,7 +18,7 @@ myenv\Scripts\activate     # On Windows
 pip install rasa
 
 # Change Directory to desired path
-cd C:\Users\yashh\OneDrive\Desktop\CS 4485\Chatbot
+cd "C:\Users\yashh\OneDrive\Desktop\CS 4485\Chatbot"
 
 
 # Train Your Chatbot:
