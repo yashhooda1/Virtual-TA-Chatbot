@@ -126,4 +126,23 @@ rules:
       - intent: bot_challenge
       - action: utter_iamabot
 
-  - rule: 
+  - rule: askweather
+    steps:
+      - intent: ask_weather
+      - action: get_weather
+
+  - rule: undergraduategpa
+    steps:
+      - intent: gpa
+      - action: utter_gpa
+      - intent: undergraduategpa
+      - action: utter_undergraduategpa
+
+  - rule: graduategpa
+    steps: 
+      - intent: gpa
+      - action: utter_gpa
+      - intent: graduategpa
+      - action: utter_graduategpa
+
+      
