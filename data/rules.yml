@@ -145,4 +145,79 @@ rules:
       - intent: graduategpa
       - action: utter_graduategpa
 
+  - rule: enrollment_apt
+    steps:
+      - intent: enrollment_apt
+      - action: utter_enrollment_apt
+
+  - rule: grad_commence
+    steps:
+      - intent: grad_commence
+      - action: utter_grad_commence
+
+  - rule: commencement_duration
+    steps:
+      - intent: commencement_duration
+      - action: utter_commencement_duration
+
+  - rule: housing_meal
+    steps:
+      - intent: housing_meal
+      - action: utter_housing_meal
+
+  - rule: take_future_class
+    steps:
+      - intent: take_future_class
+      - action: utter_take_future_class
+
+  - rule: cometdefinition
+    steps: 
+      - intent: cometdefinition
+      - action: utter_cometdefinition
+
+  - rule: utdhistory
+    steps:
+      - intent: utdhistory
+      - action: utter_utdhistory
+
+  - rule: richardbenson
+    steps:
+      - intent: richardbenson
+      - action: utter_richardbenson
+
+  - rule: deanofstudents
+    steps:
+      - intent: deanofstudents
+      - action: utter_deanofstudents
+
+  - rule: studentsuccesscenter
+    steps:
+      - intent: studentsuccesscenter
+      - action: utter_studentsuccesscenter
+
+  - rule: utdlibrary
+    steps:
+      - intent: utdlibrary
+      - action: utter_utdlibrary
+
+  - rule: elearning
+    steps:
+      - intent: elearning
+      - action: utter_elearning
+
+  - rule: galaxy
+    steps:
+      - intent: galaxy
+      - action: utter_galaxy
+
+  - rule: emergency
+    steps:
+      - intent: emergency
+      - action: utter_emergency
+
+  - rule: parking
+    steps:
+      - intent: parking
+      - action: utter_parking
+
       
