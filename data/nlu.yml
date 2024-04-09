@@ -1,533 +1,456 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
-  - hey
-  - hello
-  - hi
-  - hello there
-  - good morning
-  - good evening
-
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
 - intent: goodbye
   examples: |
-  - good bye
-  - see you later
-  - good night
-  - bye
-  - goodbye
-  - have a nice day
-  - see you around
-  - see you later
-
-
+    - good bye
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - see you later
 - intent: ask_weather
   examples: |
-   - what's the weather?
-   - can you tell me about the weather?
-   - is it sunny
-   - is it cold
-   - is it windy
-   - is it raining
-   - what's the weather like?
-   - what's the temperature
-
+    - what's the weather?
+    - can you tell me about the weather?
+    - is it sunny
+    - is it cold
+    - is it windy
+    - is it raining
+    - what's the weather like?
+    - what's the temperature
 - intent: get_weather
   examples: |
-   - [Dallas](city)
-   - [Richardson](city)
-
-
+    - [Dallas](city)
+    - [Richardson](city)
 - intent: gpa
   examples: |
-   - how to calculate my gpa?
-   - how is my gpa weighed?
-   - what is utd's grade scale?
-   - how can i determine my gpa?
-   - how do i calculate my gpa?
-
+    - how to calculate my gpa?
+    - how is my gpa weighed?
+    - what is utd's grade scale?
+    - how can i determine my gpa?
+    - how do i calculate my gpa?
 - intent: undergraduategpa
   examples: |
-   - undergraduate
-
+    - undergraduate
 - intent: graduategpa
   examples: |
-   - graduate
-
+    - graduate
 - intent: enrollment_apt
   examples: |
-   - what is an enrollment appointment
-   - enrollment appointment
-   - can i get more information on my enrollment appointment
-
+    - what is an enrollment appointment
+    - enrollment appointment
+    - can i get more information on my enrollment appointment
 - intent: grad_commence
   examples: |
-   - What is the difference between commencement and graduation?
-   - commencement and graduation?
-   - difference between graduation and commencement
-
+    - What is the difference between commencement and graduation?
+    - commencement and graduation?
+    - difference between graduation and commencement
 - intent: commencement_duration
   examples: |
-   - How long is each Commencement Ceremony?
-   - length of commencement ceremony
-   - duration of commencement cereomony
-   - will the commencement ceremony be long?
-   - commencement long?
-
+    - How long is each Commencement Ceremony?
+    - length of commencement ceremony
+    - duration of commencement cereomony
+    - will the commencement ceremony be long?
+    - commencement long?
 - intent: housing_meal
   examples: |
-   - How do I pay my housing and/or meal plan charges?
-   - how do I pay housing charges?
-   - how do i pay meal plan charges?
-   - pay for housing
-   - pay for meals
-
+    - How do I pay my housing and/or meal plan charges?
+    - how do I pay housing charges?
+    - how do i pay meal plan charges?
+    - pay for housing
+    - pay for meals
 - intent: take_future_class
   examples: |
-   - What classes should I take next semester?
-   - which classes do I take?
-   - new classes next semester
-   - what classes do i take in the future?
-   - what type of classes do I need to take?
-
+    - What classes should I take next semester?
+    - which classes do I take?
+    - new classes next semester
+    - what classes do i take in the future?
+    - what type of classes do I need to take?
 - intent: events
   examples: |
-   - When is the homecoming 5k race?
-   - hoco
-   - homecoming
-   - When is comet giving days?
-   - When is freshman orientation?
-   - When is homecoming?
-   - freshman orientation
-   - comet giving days
-   - Where is the comet calendar?
-   - comet calendar
-
+    - When is the homecoming 5k race?
+    - hoco
+    - homecoming
+    - When is comet giving days?
+    - When is freshman orientation?
+    - When is homecoming?
+    - freshman orientation
+    - comet giving days
+    - Where is the comet calendar?
+    - comet calendar
 - intent: temoc
-  example: |
-   - Who is Temoc?
-   - Temoc?
-   - Who is Enarc?
-   - Enarc?
-   - Who is the school mascot?
-   - UTD mascot
-   - mascot?
-
+  examples: |
+    - Who is Temoc?
+    - Temoc?
+    - Who is Enarc?
+    - Enarc?
+    - Who is the school mascot?
+    - UTD mascot
+    - mascot?
 - intent: cometdefinition
-  example: |
-   - What is a comet?
-   - Comet?
-
+  examples: |
+    - What is a comet?
+    - Comet?
 - intent: utdhistory
-  example: |
-   - What is the history of UTD?
-   -What is the history of UT Dallas?
--When was UTD founded?
--When was UT Dallas founded?
--history of UT Dallas?
--history of UTD? 
-
--intent: richardbenson
-example: |
--Who is Richard Benson?
--Richard Benson
-
--intent: deanofstudents
-example: |
--What is Dean of Students?
--Dean of Students?
--DOS?
--Dean?
-
--intent: studentsuccesscenter
-example: |
--What is student success center?
--student success center?
--SSC?
--Where can I get help for tutoring in my classes?
--Where can I get tutoring?
-
--intent: utdlibrary
-example: |
--UTD library
--Who is Eugene Mcdermont?
--Where is the UTD Library?
--Where is the library?
--intent: elearning
-example: |
--How to access elearning?
--What is elearning?
--elearning
--How to access blackboard?
-
--intent: galaxy
-Example: |
--How to access galaxy?
--What is galaxy?
--What is orion?
--Where to check grades?
--Where to enroll for classes?
--Where to sign up for classes?
--Where to view grades?
--Where to access enrollment information?
-
+  examples: |
+    - What is the history of UTD?
+    - What is the history of UT Dallas?
+    - When was UTD founded?
+    - When was UT Dallas founded?
+    - history of UT Dallas?
+    - history of UTD? 
+- intent: richardbenson
+  examples: |
+    - Who is Richard Benson?
+    - Richard Benson
+- intent: deanofstudents
+  examples: |
+    - What is Dean of Students?
+    - Dean of Students?
+    - DOS?
+    - Dean?
+- intent: studentsuccesscenter
+  examples: |
+    - What is student success center?
+    - student success center?
+    - SSC?
+    - Where can I get help for tutoring in my classes?
+    - Where can I get tutoring?
+- intent: utdlibrary
+  examples: |
+    - UTD library
+    - Who is Eugene Mcdermont?
+    - Where is the UTD Library?
+    - Where is the library?
+- intent: elearning
+  examples: |
+    - How to access elearning?
+    - What is elearning?
+    - elearning
+    - How to access blackboard?
+- intent: galaxy
+  examples: |
+    - How to access galaxy?
+    - What is galaxy?
+    - What is orion?
+    - Where to check grades?
+    - Where to enroll for classes?
+    - Where to sign up for classes?
+    - Where to view grades?
+    - Where to access enrollment information?
 - intent: affirm
-examples: |
-- yes
-- y
-- indeed
-- of course
-- that sounds good
-- correct
-- thank you
-- thanks
-- appreciate it
-- awesome
-- you are amazing
-- much appreciate it
-- great
-
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - thank you
+    - thanks
+    - appreciate it
+    - awesome
+    - you are amazing
+    - much appreciate it
+    - great
 - intent: deny
-examples: |
-- no
-- n
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
 - intent: mood_great
-examples: |
-- perfect
-- great
-- amazing
-- feeling like a king
-- wonderful
-- I am feeling very good
-- I am great
-- I am amazing
-- I am going to save the world
-- super stoked
-- extremely good
-- so so perfect
-- so good
-- so perfect
-
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
 - intent: mood_unhappy
-examples: |
-- my day was horrible
-- I am sad
-- I don't feel very well
-- I am disappointed
-- super sad
-- I'm so sad
-- sad
-- very sad
-- unhappy
-- not good
-- not very good
-- extremly sad
-- so saad
-- so sad
-
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
 - intent: bot_challenge
-examples: |
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
 - intent: usecase
-examples: |
-- what can you do?
-- what can you help me with?
-- what are you capable of?
-
+  examples: |
+    - what can you do?
+    - what can you help me with?
+    - what are you capable of?
 - intent: hold
-examples: |
-- What is a hold?
-- How can I see my holds?
-- Where do I access the holds on my account?
-- what prevents me from registering for my classes?
-
+  examples: |
+    - What is a hold?
+    - How can I see my holds?
+    - Where do I access the holds on my account?
+    - what prevents me from registering for my classes?
 - intent: transcriptHold
-examples: |
-- How do I remove a transcript hold?
-- remove a transcript hold
-
+  examples: |
+    - How do I remove a transcript hold?
+    - remove a transcript hold
 - intent: withrawUTD
-examples: |
-- I withdrew from UT Dallas last semester and I would like to reenter this semester. What
-do I need to do?
-- I withdrew from UTD semester and I would like to reenter this semester. What should I
-do?
-
+  examples: |
+    - I withdrew from UT Dallas last semester and I would like to reenter this semester. What do I need to do?
+    - I withdrew from UTD semester and I would like to reenter this semester. What should I do?
 - intent: admission1
-examples: |
-- Do I need to possess a master's degree to apply for the Ph.D. program?
-- Is a master's degree a requirement for applying to the Ph.D. program?
-- Must I hold a master's degree to be eligible for the Ph.D. program?
-- Are applicants for the Ph.D. program required to have completed a master's degree?
-- Can I apply to the Ph.D. program without having a master's degree?
-- What are the prerequisites for applying to the Ph.D. program regarding educational
-qualifications?
-- Do I need to meet any specific educational criteria, such as holding a master's degree, to
-apply for the Ph.D. program?
-- Are individuals without a master's degree considered for admission to the Ph.D.
-program?
-- What educational background is required for admission to the Ph.D. program?
-
+  examples: |
+    - Do I need to possess a master's degree to apply for the Ph.D. program?
+    - Is a master's degree a requirement for applying to the Ph.D. program?
+    - Must I hold a master's degree to be eligible for the Ph.D. program?
+    - Are applicants for the Ph.D. program required to have completed a master's degree?
+    - Can I apply to the Ph.D. program without having a master's degree?
+    - What are the prerequisites for applying to the Ph.D. program regarding educational qualifications?
+    - Do I need to meet any specific educational criteria, such as holding a master's degree, to apply for the Ph.D. program?
+    - Are individuals without a master's degree considered for admission to the Ph.D. program?
+    - What educational background is required for admission to the Ph.D. program?
 - intent: admission2
-examples: |
-- How do I apply to a graduate program within the Computer Science Department?
-- What is the process for applying to a graduate program in Computer Science?
-- Can you guide me through the application process for the Computer Science graduate
-program?
-- I'm interested in applying to a graduate program in Computer Science. How should I
-proceed?
-- Where can I find information on applying to the graduate program in Computer Science?
-
+  examples: |
+    - How do I apply to a graduate program within the Computer Science Department?
+    - What is the process for applying to a graduate program in Computer Science?
+    - Can you guide me through the application process for the Computer Science graduate program?
+    - I'm interested in applying to a graduate program in Computer Science. How should I proceed?
+    - Where can I find information on applying to the graduate program in Computer Science?
 - intent: admission3
-examples: |
-- How do I obtain an application form?
-- Where can I get the application form?
-- What is the process for getting the application form?
-- Can you guide me on how to get the application form?
-- I need to apply, but I'm not sure how to get the application form.
-- How can I access the application form?
-- Do I need to visit a specific office to obtain the application form?
-- Is there an online portal to download the application form?
-- Where should I go to collect the application form?
-- What are the steps to receive the application form?
-
+  examples: |
+    - How do I obtain an application form?
+    - Where can I get the application form?
+    - What is the process for getting the application form?
+    - Can you guide me on how to get the application form?
+    - I need to apply, but I'm not sure how to get the application form.
+    - How can I access the application form?
+    - Do I need to visit a specific office to obtain the application form?
+    - Is there an online portal to download the application form?
+    - Where should I go to collect the application form?
+    - What are the steps to receive the application form?
 - intent: admission4
-examples: |
-- What are the application deadlines?
-- When is the deadline to apply?
-- Can you tell me the application deadlines?
-- What is the last date to submit applications?
-- When do I need to apply by?
-- Are there any specific deadlines for applications?
-- How much time do I have to apply?
-
+  examples: |
+    - What are the application deadlines?
+    - When is the deadline to apply?
+    - Can you tell me the application deadlines?
+    - What is the last date to submit applications?
+    - When do I need to apply by?
+    - Are there any specific deadlines for applications?
+    - How much time do I have to apply?
 - intent: admission5
-examples: |
-- What are the minimum GRE scores for the graduate computer science programs?
-- Can you tell me the minimum GRE scores required for the graduate computer science
-programs?
-- What GRE scores do I need for the graduate computer science programs?
-- Are there any specific GRE score requirements for the graduate computer science
-programs?
-- How high do my GRE scores need to be for the graduate computer science programs?
-
+  examples: |
+    - What are the minimum GRE scores for the graduate computer science programs?
+    - Can you tell me the minimum GRE scores required for the graduate computer science programs?
+    - What GRE scores do I need for the graduate computer science programs?
+    - Are there any specific GRE score requirements for the graduate computer science programs?
+    - How high do my GRE scores need to be for the graduate computer science programs?
 - intent: admission6
-examples: |
-- What are the TOEFL score requirements?
-- Can you tell me the TOEFL score requirements?
-- What TOEFL scores do I need?
-- Are there any specific TOEFL score requirements?
-- How high do my TOEFL scores need to be?
-
+  examples: |
+    - What are the TOEFL score requirements?
+    - Can you tell me the TOEFL score requirements?
+    - What TOEFL scores do I need?
+    - Are there any specific TOEFL score requirements?
+    - How high do my TOEFL scores need to be?
 - intent: admission7
-examples: |
-- What are the institution, GRE and TOEFL codes?
-- Can you provide me with the institution, GRE, and TOEFL codes?
-- I need the institution, GRE, and TOEFL codes. Where can I find them?
-- Where can I locate the institution, GRE, and TOEFL codes?
-- Do you have information on the institution, GRE, and TOEFL codes?
-
+  examples: |
+    - What are the institution, GRE and TOEFL codes?
+    - Can you provide me with the institution, GRE, and TOEFL codes?
+    - I need the institution, GRE, and TOEFL codes. Where can I find them?
+    - Where can I locate the institution, GRE, and TOEFL codes?
+    - Do you have information on the institution, GRE, and TOEFL codes?
 - intent: admission8
-examples: |
-- Where should I mail my application materials?
-- Can you tell me where to send my application materials by mail?
-- I need to mail my application materials. Where should I send them?
-- What is the mailing address for submitting application materials?
-- Where can I find the address to mail my application materials?
-
+  examples: |
+    - Where should I mail my application materials?
+    - Can you tell me where to send my application materials by mail?
+    - I need to mail my application materials. Where should I send them?
+    - What is the mailing address for submitting application materials?
+    - Where can I find the address to mail my application materials?
 - intent: admission9
-examples: |
-- What are my chances of getting into the program?
-- Can you tell me my likelihood of being accepted into the program?
-- I'm wondering about my chances of admission to the program.
-- How likely am I to get into the program?
-- What are the odds of me being accepted into the program?
-
+  examples: |
+    - What are my chances of getting into the program?
+    - Can you tell me my likelihood of being accepted into the program?
+    - I'm wondering about my chances of admission to the program.
+    - How likely am I to get into the program?
+    - What are the odds of me being accepted into the program?
 - intent: admission10
-examples: |
-- When is the admission decision made?
-- Can you tell me when I'll hear back about my admission decision?
-- I'm curious about the timing of the admission decision. When will it be made?
-- How long does it typically take to receive an admission decision?
-- At what point will I find out about my admission decision?
-
+  examples: |
+    - When is the admission decision made?
+    - Can you tell me when I'll hear back about my admission decision?
+    - I'm curious about the timing of the admission decision. When will it be made?
+    - How long does it typically take to receive an admission decision?
+    - At what point will I find out about my admission decision?
 - intent: admission11
-examples: |
-- Is there a time limit for completing the master's degree?
-- Can you tell me if there's a deadline for finishing the master's degree?
-- I'm wondering about the time frame for completing the master's degree.
-- How long do I have to complete the master's degree program?
-- Is there a maximum duration for completing the master's degree?
-
+  examples: |
+    - Is there a time limit for completing the master's degree?
+    - Can you tell me if there's a deadline for finishing the master's degree?
+    - I'm wondering about the time frame for completing the master's degree.
+    - How long do I have to complete the master's degree program?
+    - Is there a maximum duration for completing the master's degree?
 - intent: admission12
-examples: |
-- Is there a time limit for completing the Ph.D. program?
-- Can you tell me if there's a deadline for finishing the Ph.D. program?
-- I'm wondering about the time frame for completing the Ph.D. program.
-- How long do I have to complete the Ph.D. program?
-- Is there a maximum duration for completing the Ph.D. program?
-
+  examples: |
+    - Is there a time limit for completing the Ph.D. program?
+    - Can you tell me if there's a deadline for finishing the Ph.D. program?
+    - I'm wondering about the time frame for completing the Ph.D. program.
+    - How long do I have to complete the Ph.D. program?
+    - Is there a maximum duration for completing the Ph.D. program?
 - intent: admission13
-examples: |
-- What are the tuition and fee costs for graduate school?
-- Can you provide information about the tuition and fees for graduate school?
-- I'm interested in knowing the costs of tuition and fees for graduate school.
-- How much do I need to pay for tuition and fees for graduate school?
-- Can you tell me about the expenses associated with graduate school tuition and fees?
-
+  examples: |
+    - What are the tuition and fee costs for graduate school?
+    - Can you provide information about the tuition and fees for graduate school?
+    - I'm interested in knowing the costs of tuition and fees for graduate school.
+    - How much do I need to pay for tuition and fees for graduate school?
+    - Can you tell me about the expenses associated with graduate school tuition and fees?
 - intent: admission14
-examples: |
-- How do I transfer graduate course credit to UTD?
-- Can you provide information on transferring graduate course credit to UTD?
-- I'm interested in transferring course credit to UTD. How can I do that?
-- What is the process for transferring graduate course credit to UTD?
-- How can I transfer my previous graduate course credit to UTD?
-
+  examples: |
+    - How do I transfer graduate course credit to UTD?
+    - Can you provide information on transferring graduate course credit to UTD?
+    - I'm interested in transferring course credit to UTD. How can I do that?
+    - What is the process for transferring graduate course credit to UTD?
+    - How can I transfer my previous graduate course credit to UTD?
 - intent: admission15
-examples: |
-- What are the prerequisite courses listed in my admissions letter?
-- Can you tell me the prerequisite courses mentioned in my admissions letter?
-- I received my admissions letter. How can I find the prerequisite courses listed in it?
-- Where can I find the list of prerequisite courses mentioned in my admissions letter?
-- How can I check the prerequisite courses required as per my admissions letter?
-
+  examples: |
+    - What are the prerequisite courses listed in my admissions letter?
+    - Can you tell me the prerequisite courses mentioned in my admissions letter?
+    - I received my admissions letter. How can I find the prerequisite courses listed in it?
+    - Where can I find the list of prerequisite courses mentioned in my admissions letter?
+    - How can I check the prerequisite courses required as per my admissions letter?
 - intent: admission16
-examples: |
-- How would I apply for waivers of prerequisite courses?
-- Can you provide information on applying for waivers of prerequisite courses?
-- I'm interested in applying for waivers of prerequisite courses. What's the process?
-- What steps do I need to take to apply for waivers of prerequisite courses?
-- Is there a procedure for requesting waivers of prerequisite courses?
-
+  examples: |
+    - How would I apply for waivers of prerequisite courses?
+    - Can you provide information on applying for waivers of prerequisite courses?
+    - I'm interested in applying for waivers of prerequisite courses. What's the process?
+    - What steps do I need to take to apply for waivers of prerequisite courses?
+    - Is there a procedure for requesting waivers of prerequisite courses?
 - intent: admission17
-examples: |
-- I'm a newly admitted international student. When will I receive my I-20?
-- Can you tell me when I'll receive my I-20 as a newly admitted international student?
-- When should I expect to receive my I-20 after being admitted as an international
-student?
-- How long does it typically take to receive the I-20 after admission as an international
-student?
-- What is the timeline for receiving the I-20 after admission for international students?
-
+  examples: |
+    - I'm a newly admitted international student. When will I receive my I-20?
+    - Can you tell me when I'll receive my I-20 as a newly admitted international student?
+    - When should I expect to receive my I-20 after being admitted as an international student?
+    - How long does it typically take to receive the I-20 after admission as an international student?
+    - What is the timeline for receiving the I-20 after admission for international students?
 - intent: admission18
-examples: |
-- Will my I-20 be sent with my admissions letter?
-- Can I expect to receive my I-20 along with my admissions letter?
-- Does the admissions letter include the I-20?
-- Will both the admissions letter and the I-20 be sent together?
-- Should I anticipate receiving my I-20 in the same package as my admissions letter?
-
+  examples: |
+    - Will my I-20 be sent with my admissions letter?
+    - Can I expect to receive my I-20 along with my admissions letter?
+    - Does the admissions letter include the I-20?
+    - Will both the admissions letter and the I-20 be sent together?
+    - Should I anticipate receiving my I-20 in the same package as my admissions letter?
 - intent: admission19
-examples: |
-- Where can I view a complete list of graduate courses in computer science?
-- Can you tell me where to find a comprehensive list of graduate courses in computer
-science?
-- I'm looking for a complete list of graduate courses in computer science. Where can I find
-it?
-- How can I access a detailed list of all graduate courses available in computer science?
-- Is there a resource where I can see all the graduate courses offered in computer
-science?
-
+  examples: |
+    - Where can I view a complete list of graduate courses in computer science?
+    - Can you tell me where to find a comprehensive list of graduate courses in computer science?
+    - I'm looking for a complete list of graduate courses in computer science. Where can I find it?
+    - How can I access a detailed list of all graduate courses available in computer science?
+    - Is there a resource where I can see all the graduate courses offered in computer science?
 - intent: admission20
-examples: |
-- I have been admitted to the graduate CS program. How many classes should I take
-during my first semester?
-- Can you tell me how many classes I should enroll in for my first semester in the graduate
-CS program?
-- What is the recommended number of classes to take during my first semester in the
-graduate CS program?
-- How many courses are typically recommended for the first semester of the graduate CS
-program?
-- As a newly admitted graduate CS student, how many classes should I consider taking in
-my first semester?
-
+  examples: |
+    - I have been admitted to the graduate CS program. How many classes should I take during my first semester?
+    - Can you tell me how many classes I should enroll in for my first semester in the graduate CS program?
+    - What is the recommended number of classes to take during my first semester in the graduate CS program?
+    - How many courses are typically recommended for the first semester of the graduate CS program?
+    - As a newly admitted graduate CS student, how many classes should I consider taking in my first semester?
 - intent: admission23
-examples: |
-- How can I determine whether my research interests are compatible with those of the
-faculty?
-- Can you provide guidance on assessing the compatibility of my research interests with
-the faculty's?
-- I'm unsure how to determine if my research interests align with those of the faculty. Can
-you help?
-- What steps should I take to evaluate the compatibility of my research interests with the
-faculty's?
-- Is there a method for determining if my research interests are in line with the faculty's?
-
+  examples: |
+    - How can I determine whether my research interests are compatible with those of the faculty?
+    - Can you provide guidance on assessing the compatibility of my research interests with the faculty's?
+    - I'm unsure how to determine if my research interests align with those of the faculty. Can you help?
+    - What steps should I take to evaluate the compatibility of my research interests with the faculty's?
+    - Is there a method for determining if my research interests are in line with the faculty's?
 - intent: admission24
-examples: |
-- What types of financial assistance are available?
-- Can you tell me about the different forms of financial assistance offered?
-- I'm interested in learning about the various financial assistance options available. Can
-you provide information?
-- What kinds of financial aid are offered to students?
-- How can I find out about the available financial assistance programs?
-
+  examples: |
+    - What types of financial assistance are available?
+    - Can you tell me about the different forms of financial assistance offered?
+    - I'm interested in learning about the various financial assistance options available. Can you provide information?
+    - What kinds of financial aid are offered to students?
+    - How can I find out about the available financial assistance programs?
 - intent: testing
-examples: |
-- where should I take my tests?
-- where should I take my exams?
-
+  examples: |
+    - where should I take my tests?
+    - where should I take my exams?
 - intent: transcriptreq
-examples: |
-- How do I request my transcript from the university?
-- Can you help me with obtaining my university transcript?
-- What is the process for getting my transcript from UTD?
-- Where can I find information on requesting a transcript?
-- I need to get a copy of my transcript, how do I go about it?
-- What are the steps to request my academic transcript?
-- Is there a way to order my official transcript online?
-- How can I access my official university transcript?
-- Who should I contact to request a transcript from UTD?
-- Can you guide me through the transcript request procedure?
-
+  examples: |
+    - How do I request my transcript from the university?
+    - Can you help me with obtaining my university transcript?
+    - What is the process for getting my transcript from UTD?
+    - Where can I find information on requesting a transcript?
+    - I need to get a copy of my transcript, how do I go about it?
+    - What are the steps to request my academic transcript?
+    - Is there a way to order my official transcript online?
+    - How can I access my official university transcript?
+    - Who should I contact to request a transcript from UTD?
+    - Can you guide me through the transcript request procedure?
 - intent: ask_academic_standing_GPA
-examples: |
-- What GPA do I need to maintain to stay in good academic standing?
-- What GPA is required to remain in good academic standing?
-- How high does my GPA need to be to stay in good standing?
-- Can you tell me the required GPA to maintain good academic standing?
-- What's the minimum GPA to stay in good academic standing?
-- Is there a specific GPA I should aim for to be in good academic standing?
-- How do I know if my GPA is good enough to stay in good academic standing?
-- What's the threshold GPA for staying in good academic standing?
-- What's the GPA requirement to avoid academic probation
-
+  examples: |
+    - What GPA do I need to maintain to stay in good academic standing?
+    - What GPA is required to remain in good academic standing?
+    - How high does my GPA need to be to stay in good standing?
+    - Can you tell me the required GPA to maintain good academic standing?
+    - What's the minimum GPA to stay in good academic standing?
+    - Is there a specific GPA I should aim for to be in good academic standing?
+    - How do I know if my GPA is good enough to stay in good academic standing?
+    - What's the threshold GPA for staying in good academic standing?
+    - What's the GPA requirement to avoid academic probation
 - intent: emergency
-examples: |
-- Has anything happeened at UT Dallas today?
-- What is going on on campus?
-- Tornado warning
-- Severe thunderstorm warning
-- campus closed
-- classes cancelled
-- winter storm warning
-- Inclement weather 
-- tornado warning
-- campus shooting
-- shooting
-- lockdown
-- campus lockdown 
-- What is going on at UT Dallas?
-- UT Dallas Emergency
-
+  examples: |
+    - Has anything happeened at UT Dallas today?
+    - What is going on on campus?
+    - Tornado warning
+    - Severe thunderstorm warning
+    - campus closed
+    - classes cancelled
+    - winter storm warning
+    - Inclement weather 
+    - tornado warning
+    - campus shooting
+    - shooting
+    - lockdown
+    - campus lockdown 
+    - What is going on at UT Dallas?
+    - UT Dallas Emergency
+    - UTD Police
+    - UT Dallas Police
+    - ut dallas police
+    - utd police
+    - police
+    - cops
 - intent: parking
-examples: |
-- How to get parking permit at UT Dallas?
-- Parking at UT Dallas?
-- UTD Parking
-- Parking
-- Parking Permit
+  examples: |
+    - How to get parking permit at UT Dallas?
+    - Parking at UT Dallas?
+    - UTD Parking
+    - Parking
+    - Parking Permit
 
 
 
