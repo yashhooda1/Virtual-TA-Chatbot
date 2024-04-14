@@ -1,0 +1,197 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - ask_weather
+  - get_weather
+  - gpa
+  - undergraduategpa
+  - graduategpa
+  - enrollment_apt
+  - grad_commence
+  - commencement_duration
+  - y_events
+  - y_temoc
+  - housing_meal
+  - take_future_class
+  - y_cometdefinition
+  - y_utdhistory
+  - y_richardbenson
+  - y_deanofstudents
+  - y_studentsuccesscenter
+  - y_utdlibrary
+  - y_elearning
+  - y_galaxy
+  - y_emergency
+  - y_parking
+  - y_courseinfo
+  - y_degreeinfo
+  - y_orientation
+  - y_careerhelp
+  - y_healthandwellness
+  - y_sociallife
+  - y_campusnavigation
+  - y_campusresources
+  - y_csmentoringcenter
+  - y_hackathonguidance
+  - y_gradrequirements
+  - y_academicadvising
+  - y_scholarship
+  - y_housing 
+  - y_accessibility
+  - y_timemanagement
+  - y_codingpractice
+  - y_dininginfo
+  - y_gym
+  - y_athletics 
+responses:
+  utter_greet:
+    - text: "Hello Comet! How can I assist you?💫"
+    - text: "Hey! How are you comet?💫"
+    - text: "Hey there comet!💫"
+    - text: "Hey comet how can I assist you today?💫"
+  utter_goodbye:
+    - text: "Bye Comet💫"
+    - text: "Have a wonderful day Comet!💫"
+  utter_ask_weather:
+    - text: "Sure, can you specify the city?"
+  utter_gpa:
+    - text: "Sure, are you a graduate or undergraduate student?"
+  utter_undergraduategpa:
+    - text: "The grade scale for an undergraduate student is as follows\nA+ & A = 4.000, A- = 3.670, B+ = 3.330, B = 3.000, B- = 2.670, C+ = 2.330, C = 2.000, C- = 1.670, C- = 1.670, D+ = 1.330, D = 1.000, D- = 0.670, F = 0.000.\nTo calculate your GPA for the semester, multiply the number of credit hours for a specific class by the letter grade point listed above. Do that for each class then divide that total by the number of credit hours you are taking this semester to calculate your GPA. You can also use this website, https://fye.utdallas.edu/gpa-calculator/."
+  utter_graduategpa:
+    - text: "The grade scale for a graduate student is as follows\nA+ & A = 4.000, A- = 3.670, B+ = 3.330, B = 3.000, B- = 2.670, C+ = 2.330, C = 2.000, F = 0.000.\nPlease note that any grade below a C is considered failing and you will receive an F for that course. The minimum required GPA for graduate level courses is 3.0.\nTo calculate your GPA for the semester, multiply the number of credit hours for a specific class by the letter grade point listed above. Do that for each class then divide that total by the number of credit hours you are taking this semester to calculate your GPA. You can also use this website, https://www.calculator.net/gpa-calculator.html."
+  utter_enrollment_apt:
+    - text: "During registration periods, the enrollment appointment is your date and time slot you are able to registration for the term.\nTo locate your enrollment appointment, go to your UTD Student Center, Manage My Class tile, Enrollment Appointments page and select the appropriate term.\nRegister for classes after your enrollment appointment begins for the term. Online registration is available until the published last day of late registration."
+  utter_grad_commence:
+    - text: "Commencement refers to the ceremony, which is an opportunity for students to celebrate their academic accomplishments with their peers, family and friends.\nParticipation in commencement does not guarantee or indicate degree completion.\nGraduation is a four-step process consisting of applying for graduation, updating your diploma name and address in Orion, completing all academic requirements and settling all financial obligations."
+  utter_commencement_duration:
+    - text: "Each Commencement Ceremony lasts approximately 1.5 to 2 hours."
+  utter_housing_meal:
+    - text: "You can view your University Housing and meal plan charges on your student account statement via the Bursar Office EZPay page. You may pay those charges directly to the Bursar Office using one of their various payment options."
+  utter_take_future_class:
+    - text: "Your flowchart will help you to identify classes which you are eligible to take each semester.\n1. Download or print your degree flowchart.\n2. Pull up your course history in ORION Student Center > My Academics.\n3. On your flowchart, cross off all the classes you have completed and are enrolled in, follow the arrows and circle all your options for next semester.\nCS/SE majors... prioritize taking courses that are pre-requisites to more CS/ SE courses.\nBMEN/ MECH/ EE/ CE majors... Prioritize taking courses that are listed on or connected to your critical path (thick bold lines on your flowchart).\nAfter filling out your flowchart, you are always welcome to contact your Academic Advisor to confirm your course selections."
+  utter_y_events:
+    - text: "You can check more information about the upcoming event(s) at https://calendar.utdallas.edu/. The UT Dallas website should have more information about the event."
+  utter_y_elearning:
+    - text: "E-learning also known as Blackboard Collaborate is a tool used by UTD faculty and professors to assign and give homeworks/exams and teach courses virtually online when school is not in session. You can access e-learning through this link at https://elearning.utdallas.edu/ultra/institution-page. You can access e-learning by logging in using your UT Dallas net-id and password."
+  utter_y_galaxy:
+    - text: "Galaxy is the name of the online student information system used by the University of Texas at Dallas (UTD). It is the central platform where students can access various academic and administrative services, including registration, course schedules, grades, financial aid information, student account details, and more. Through Galaxy, students can perform tasks such as,\nCourse Registration... Students can search for available courses, add or drop classes, and manage their course schedule for upcoming semesters.\nFinancial Aid... Galaxy provides access to financial aid information, including applications, status updates, and award details. Students can also view and accept financial aid offers through this platform.\nStudent Records... Galaxy allows students to view their academic records, including grades, transcripts, and enrollment history. They can also request official transcripts through the system.\nBilling and Payments... Students can view their account balances, make payments, set up payment plans, and manage other financial transactions through Galaxy.\nDegree Planning... Some versions of Galaxy offer degree audit tools that help students track their progress toward degree requirements and plan their academic pathway.\nPersonal Information Updates... Students can update their contact information, emergency contacts,  and other personal details through Galaxy.\nOverall, Galaxy serves as a centralized portal for students to access essential academic and administrative services at UTD, providing convenience and accessibility to various resources needed throughout their academic journey. You can find more information and access to UTD galaxy through their website, https://www.utdallas.edu/galaxy/."
+  utter_y_temoc:
+    - text: "Temoc is the current school mascot of the University of the Texas at Dallas."
+  utter_y_cometdefinition:
+    - text: "noun\na celestial object consisting of a nucleus of ice and dust and, when near the sun, a tail of gas and dust particles pointing away from the sun." 
+  utter_y_utdhistory:
+    - text: "The University of Texas at Dallas (UTD) is a public research university located in Richardson, Texas, USA. Here's a brief history of UTD...\n1. Foundation... UTD was established in 1961 as a private research institution. The founders intended it to be a graduate research center for the region, focusing on science, engineering, and technology.\n2. Public Institution... In 1969, the university merged with the University of Texas System and became a public institution. This move significantly expanded its resources and opportunities for growth.\n3. Early Growth and Development... Throughout the 1970s and 1980s, UTD experienced steady growth, expanding its academic programs and infrastructure. It gained a reputation for excellence in science, engineering, and computer science.\n4. Economic Impact... UTD has played a significant role in the economic development of the North Texas region. Its research and technology transfer initiatives have fostered innovation and entrepreneurship, contributing to the area's high-tech industry.\n5. Expansion of Programs... Over the years, UTD has expanded its academic offerings to include a wide range of disciplines, including business, arts and humanities, social sciences, and healthcare-related fields. It has also developed strong programs in areas such as nanotechnology, neuroscience, and cybersecurity.\n6. Recognition and Rankings... UTD has gained recognition both nationally and internationally for its academic excellence. It consistently ranks among the top universities in the United States for its research output and is known for its strong faculty and innovative programs.\n7. Campus Development... The university's campus has undergone significant development and expansion, with new academic buildings, research facilities, and student amenities being added regularly. The campus features modern architecture and state-of-the-art facilities conducive to learning and research.\n8. Community Engagement... UTD is deeply engaged with the local community, collaborating with industry partners, government agencies, and nonprofit organizations to address societal challenges and promote economic development.\nOverall, the University of Texas at Dallas has evolved into a premier research university with a global reputation for excellence in education, research, and innovation. Its commitment to academic excellence, research, and community engagement continues to drive its growth and impact."
+  utter_y_richardbenson:
+    - text: "Richard Benson is the current president of the University of Texas at Dallas. In 2006, he became the 4th president the university ever had.\nDuring his tenure, UTD experienced significant growth and development, expanding its academic programs, research initiatives, and campus infrastructure.\nUnder Benson's leadership, UTD strengthened its research capabilities, increased its national and international visibility, and enhanced its reputation for academic excellence.\nHe focused on fostering interdisciplinary collaborations, promoting innovation and entrepreneurship, and improving the student experience." 
+  utter_y_deanofstudents:
+    - text: "The Dean of Students is a senior administrative position within a university or college responsible for overseeing various aspects of student life and support services. Here are some key responsibilities and roles typically associated with the Dean of Students...\n1.Student Affairs Oversight... The Dean of Students typically oversees the Office of Student Affairs or a similar department responsible for providing a wide range of services and programs to support student success and well-being.\n2.Student Conduct and Discipline... The Dean of Students often oversees the development and enforcement of student conduct policies and procedures. They may work closely with conduct officers and review disciplinary cases, ensuring fair and consistent outcomes.\n3.Student Advocacy... The Dean of Students serves as an advocate for students, addressing their concerns and advocating for their needs within the institution. They may work to ensure that students' voices are heard in decision-making processes and policies.\n4.Crisis Management and Student Support... In times of crisis or emergencies, such as natural disasters or student emergencies, the Dean of Students plays a critical role in coordinating support services, providing assistance to affected students, and ensuring the safety and well-being of the campus community.\n5.Student Engagement and Leadership Development... The Dean of Students often oversees programs and initiatives aimed at enhancing student engagement, leadership development, and campus involvement. This may include overseeing student clubs and organizations, leadership programs, and campus events.\n6.Student Health and Wellness... The Dean of Students may work closely with health and counseling services to promote student wellness and mental health. They may oversee initiatives related to health education, prevention programs, and access to healthcare services.\n7.Student Housing and Residence Life... In institutions with on-campus housing, the Dean of Students may oversee residence life programs, policies, and facilities. They may work to create a positive living and learning environment for students residing on campus.\n8.Community Outreach and Partnerships... The Dean of Students may collaborate with external partners, such as local community organizations and government agencies, to address issues affecting students and the broader community.\nOverall, the Dean of Students plays a vital role in creating a supportive and inclusive campus environment that promotes student success, well-being, and personal development. They work collaboratively with various stakeholders to address the diverse needs of students and enhance the overall student experience. You can find more information or report conduct on the UTD dean of students website, https://deanofstudents.utdallas.edu/."
+  utter_y_studentsuccesscenter:
+    - text: "The Student Success Center at the University of Texas at Dallas (UTD) is a central hub dedicated to providing comprehensive support services and resources to enhance student success and academic achievement. Here's an overview of what the Student Success Center typically offers,\n1.Academic Advising... The Student Success Center provides academic advising services to help students navigate their academic journey, including course selection, degree planning, and academic goal-setting. Advisors assist students in understanding degree requirements and academic policies.\n2.Tutoring and Supplemental Instruction... The center may offer tutoring services and supplemental instruction in various subjects to help students excel in their coursework. This may include drop-in tutoring, group study sessions, and workshops on study skills and academic strategies.\n3.Career Development... The Student Success Center may offer career counseling, workshops, and resources to help students explore career options, develop job search strategies, and prepare for internships, co-op experiences, and post-graduation employment.\n4.Student Success Workshops... The center may host workshops and seminars on topics such as time management, effective study habits, stress management, and academic skills development to support students in achieving their academic and personal goals.\n5.Academic Support Programs... The Student Success Center may administer academic support programs designed to assist specific student populations, such as first-year students, transfer students, or students on academic probation. These programs may include mentoring, academic coaching, and peer support initiatives.\n6.Accessibility Services... The center may provide accommodations and support services for students with disabilities to ensure equal access to educational opportunities. This may include assistance with accommodations, adaptive technology, and disability-related advocacy.\n7.Student Success Resources... The center may maintain a library of resources, including online guides, handouts, and referrals to other campus support services, to help students navigate academic challenges and access additional support as needed.\n8.Student Success Initiatives... The Student Success Center may develop and implement initiatives and programs aimed at promoting student retention, persistence, and graduation. This may include early alert systems, intervention programs for at-risk students, and initiatives to improve student engagement and satisfaction.\nOverall, the Student Success Center at UT Dallas plays a crucial role in supporting student achievement, personal development, and overall well-being by providing a wide range of services and resources tailored to meet the diverse needs of students. You can find out more about the student success center on their website, https://studentsuccess.utdallas.edu/."
+  utter_y_utdlibrary:
+    - text: "The University of Texas at Dallas (UTD) is home to the Eugene McDermott Library, which serves as the central library facility on campus. Here's an overview of the UTD Library...\n1.Name... Eugene McDermott Library is named after Eugene McDermott, one of the founders of Texas Instruments and a significant philanthropist whose contributions helped establish UTD.\n2.Location... The library is located at the heart of the UTD campus in Richardson, Texas, providing easy access to students, faculty, and staff.\n3.Collections... The library offers extensive collections of print and electronic resources, including books, journals, databases, multimedia materials, and special collections. These resources cover a wide range of subjects to support teaching, learning, and research across various academic disciplines.\n4.Study Spaces... The library provides a variety of study spaces to accommodate different learning preferences and needs. These include quiet study areas, group study rooms, computer labs, and collaborative workspaces. The library is designed to offer comfortable and conducive environments for individual and group study sessions.\n5.Technology and Services... Eugene McDermott Library is equipped with modern technology and offers a range of services to support research and scholarly activities. This includes access to online databases and digital resources, research assistance from librarians, interlibrary loan services, printing and copying facilities, and technology lending programs.\n6.Research Support... Librarians at the UTD Library provide research assistance to help students and faculty locate and evaluate information sources, develop research strategies, and properly cite sources. They offer individual consultations, workshops, and online guides to support research endeavors.\n7.Events and Programming... The library hosts various events, workshops, and exhibitions throughout the year to engage the campus community and promote academic enrichment. These may include author talks, lectures, art displays, film screenings, and educational programs related to library resources and services.\n8.Community Engagement... The library actively engages with the UTD community and partners with other academic departments, research centers, and community organizations to provide comprehensive library services and resources. It serves as a hub for intellectual exchange and collaboration within the university and beyond.\nOverall, the Eugene McDermott Library at the University of Texas at Dallas plays a vital role in supporting the university's academic mission by providing access to information, fostering research and scholarship, and facilitating learning and intellectual inquiry. You can find out more information about the UTD library on their website, https://library.utdallas.edu/."
+  utter_y_emergency: 
+    - text: "You can check the https://emergency.utdallas.edu/ for emergency alerts on campus, for faster service, please call 911 if this is an off-campus emergency, the UTD Police number is (972)-883-2222.\nYou can also reach out to emergency management at (972)-883-2420. UTD Alert UT Dallas will send text alerts in the event of an emergency, inclement weather or a disruption in normal operations.\nThe message will be sent to the mobile numbers listed in the records of students, faculty and staff. Parents and others can sign up by texting UTDALERT to 888777." 
+  utter_y_parking:
+    - text: "Parking at the University of Texas at Dallas (UTD) is managed by the Auxiliary Services. Here’s what you need to know,\n1. Parking Permits - Who Can Get Permits? - Current UTD visitors, students, faculty, and staff are eligible for parking permits. How to Obtain a Permit? - You can purchase a permit either in person from the Parking Office or online. The Parking Office accepts credit and debit cards, but not cash or checks.\n2.Types of Permits - Students - Orange, Evening Orange, Gold, or Green permits.\n-On-Campus Residents - Required to purchase housing permits. They can also get a “combo” permit to park in commuter spaces during the day.\n-Faculty and Staff - Purple, Orange, Evening Orange, Gold, or Green permits.\n3.Permit Privileges - Purchasing a permit allows you to park according to the privileges of the specific permit you bought. However, it doesn’t guarantee a specific parking space.\n4.Grace Periods - Commuter Students, Faculty, and Staff - Green parking is allowed without a permit from the first day of class until Census Day during Fall and Spring semesters. Summer semester requires a permit at all times.\n5.On-Campus Residents - They can park in their respective housing lots without a permit from scheduled University Housing move-in dates until Census Day.\n6.Enforcement - All other parking areas are enforced throughout the year, except during grace periods.\n7.Public Transportation - There is no free parking on the UTD campus for students, faculty, or staff.\n8.If you prefer public transportation, there are nearly 2,000 free parking spaces available at the Cityline/Bush Train Station Park-and-Ride located at 1300 E President George Bush Tpke, Richardson, TX 750822.\n9.Metered Parking - UTD has over 300 cashless, Pay-by-Space metered parking spaces across campus in Parking Structures 1, 3, and 4, as well as Lots F, G, and M West. These spaces allow convenient payment through the Pay-by-Space systems.\n10.For more details, you can visit the UTD Parking website. Remember to plan ahead and stay informed about lot closures! For more information, please visit https://www.services.utdallas.edu/transit/."
+  utter_y_courseinfo:
+    - text: "You can search for courses and course information about a specific course through the UT Dallas guided coursebook, you can find it here at https://www.coursebook.utdallas.edu/."
+  utter_y_degreeinfo:
+    - text: "The University of Texas at Dallas (UTD) offers a range of undergraduate and graduate degrees across various fields. Some of the key areas of study at UTD include:\n1.Engineering... UTD offers degrees in various engineering disciplines such as electrical engineering, mechanical engineering, computer engineering, biomedical engineering, etc.\n2.Computer Science and IT... UTD is well-known for its strong programs in computer science and information technology. It offers undergraduate and graduate degrees in computer science, software engineering, cybersecurity, and related fields.\n3.Business and Management... UTD's Naveen Jindal School of Management offers undergraduate and graduate degrees in areas such as business administration, finance, accounting, marketing, supply chain management, and more.\n4.Natural Sciences and Mathematics... UTD offers degrees in biology, chemistry, physics, mathematics, and other natural sciences.\n5.Arts and Humanities... UTD provides programs in arts and humanities fields such as literature, history, philosophy, visual and performing arts, and communication.\n6.Social Sciences... UTD offers degrees in disciplines such as psychology, sociology, political science, economics, and public policy.\n7.Healthcare and Biomedical Sciences... UTD offers programs in healthcare management, biomedical engineering, neuroscience, and related fields.\nThese are just a few examples, and UTD offers many other programs and interdisciplinary studies. The university is known for its focus on research and innovation, and it provides numerous opportunities for students to engage in hands-on learning experiences, internships, and research projects."
+  utter_y_orientation:
+    - text: "Freshman Orientation is an exciting first step to becoming part of the UT Dallas community. This program gives an overview of opportunities and resources available to you on campus.\nDuring Freshman Orientation you will have the chance to,\n1.Meet other students and make new friends.\n2.Meet with academic advisors and discuss classes and majors.\n3.Complete course selections and registration.\n4.Learn about academic expectations.\n5.Learn about the University’s services and resources.\n6.Familiarize yourself with the UT Dallas campus.\n7.Meet with administrators.\nYou can register for freshman orientation through UTD galaxy. For more instructions to register for this event and for more information, you can visit https://www.fye.utdallas.edu/orientation/."
+  utter_y_careerhelp:
+    - text: "The UT Dallas career center is dedicated to helping undergraduates, graduates students, and alumni with their career help.\nFrom personalized career advising to career fairs and everything in between, the UCC exists to help you get started in your career.\nFor more information, you can visit https://www.career.utdallas.edu/. You can also visit https://www.career.utdallas.edu/career-resource-library/ for career resources."
+  utter_y_healthandwellness:
+    - text: "The UT Dallas student wellness center is dedicated to the health and well-being of all UT Dallas students. It offers a variety of sources related to various public health concerns. For more information, you can visit https://www.studentwellness.utdallas.edu/."
+  utter_y_sociallife:
+    - text: "The UT Dallas social life is very introverted and offers very few options for students. If you want to learn more about the UT Dallas social life, please visit https://www.utdallas.edu/campus-life/."
+  utter_y_campusnavigation:
+    - text: "You can view a map of UT Dallas and visit the university through an interative tour offered in person and virtually. If you want to learn more about how to navigate UTD or schedule your next tour, please visit, https://www.utdallas.edu/visitors/tour-utd/." 
+  utter_y_campusresources:
+    - text: "The UT Dallas campus resources contains information about tutoring, transcripts, academic calendar, courses, libraries, advising and testing center. For more helpful information, please visit https://www.utdallas.edu/academics/academic-resources/." 
+  utter_y_csmentoringcenter:
+    - text: "The UT Dallas Computer Science mentoring center offers tutoring and guidance for anyone taking the core basic computer science courses at UT Dallas. Tuoring is offered for CS 1436, CS 1337, CS 2305, CS 2336, CS 2337, CS 2340, CS 3305, and SE 3306. For more imformation, you can visit, https://www.csmc.utdallas.edu/."
+  utter_y_hackathonguidance:
+    - text: "Hack UTD is UTD's largest hackathon organization that provides and organizes one of the largest hackathons in North America for students all around the world. UTD has many other CS organizations such as ACM who also sponsor and participate in various hackathons including this one where students have the chance to build career skills, projects, network, and potential job opportunities. You can visit hack UTD's website, at https://www.hackutd.co/. Or you can also check ACM's website at https://www.acmutd.co/." 
+  utter_y_gradrequirements:
+    - text: "The University reserves the right to graduate any student who has satisfactorily met all requirements for graduation. To view these requirements, you must read your degree plan and meet with academic advisor. You can also check out the course catalog and click on your school of study which has your major in it to view the degree requirements. Here is the 2023 undergraduate catalog for example, https://www.catalog.utdallas.edu/2023/undergraduate/home/."
+  utter_y_academicadvising:
+    - text: "The academic advising at UT Dallas offers students the opportunity to connect with academic advisors that can help students stay on track for their degree plan and to graduate. It is mandatory for every freshman and transfer student to meet with their academic advisor at least once before they sign up for classes. You can find more information on the website at https://www.registrar.utdallas.edu/registration/academic-advising/."
+  utter_y_scholarship:
+    - text: "Scholarships are considered merit-based aid that do not have to be repaid. UT Dallas offers students many scholarships such as academic excellence scholarship to eligible students based on academic achievements. For more information, you can visit https://www.finaid.utdallas.edu/scholarships/."
+  utter_y_housing:
+    - text: "UT Dallas offers a variety of housing options for students from the residence halls to the university village apartments, there are plenty of housing options for students on campus. Only first-year students can apply to stay in residence halls. Non-first year students can apply to stay at Canyon Creek Heights apartments or University Village apartments on campus. There is also off-campus housing available at Northside. For more information, please visit https://www.housing.utdallas.edu/."
+  utter_y_accessibility:
+    - text: "Students and employees with disabilities can access accessibility information and accommodations such as extended exam time, etc... For more information, please visit https://www.accessability.utdallas.edu/."
+  utter_y_timemanagement:
+    - text: "The UT Dallas student counseling center offers students an important resource for planning their time. It is important for student to prioritize important tasks in hand before doing nonimportant tasks. For more information, please visit https://www.counseling.utdallas.edu/resources/time-management/."
+  utter_y_codingpractice:
+    - text: "Students who want to prepare for coding interviews and master their coding skills should strongly consider visiting Leetcode, SoloLearn, and Codecademy to help them learn new programming languages. To access Leetcode, please visit https://www.leetcode.com/. To access SoloLearn, please visit https://www.sololearn.com/en/. To access Codecademy, please visit https://www.codecademy.com/."
+  utter_y_dininginfo:
+    - text: "UT Dallas offers a variety of meal services for students on and off campus. There are various meal plans available to students such as comet-19, comet-14, comet-10. It is important to plan ahead for meals as dining services come on a first come first serve basis. For more information, please visit https://www.services.utdallas.edu/dining/. If you have any specific questions, please check out https://www.dineoncampus.com/utdallasdining/faqs."
+  utter_y_gym:
+    - text: "UT Dallas offers 2 gyms for students on campus. There is the Recreation Center West which is near the freshman dorms and the Activity Center which is near the center of campus. Both Gym memberships are free for students who have paid their tuition and fees for the semester. For more information, please check out https://www.urec.utdallas.edu/."
+  utter_y_athletics:
+    - text: "The UT Dallas Comets compete in a variety of NCAA approved Division III sports such as Basketball, Soccer, Volleyball, Cross Country/Track and Field, Golf, Tennis, and Baseball. Starting July 1st, 2025, UT Dallas will join the Lone Star Conference as part of the NCAA Division II. You can find more information at https://www.utdcomets.com/."
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+  - action_get_weather
+  - utter_gpa
+  - utter_undergraduategpa
+  - utter_graduategpa
+  - utter_enrollment_apt
+  - utter_grad_commence
+  - utter_commencement_duration
+  - utter_housing_meal
+  - utter_take_future_class
+  - utter_y_events
+  - utter_y_temoc
+  - utter_y_cometdefinition
+  - utter_y_utdhistory
+  - utter_y_richardbenson
+  - utter_y_deanofstudents
+  - utter_y_studentsuccesscenter
+  - utter_y_utdlibrary
+  - utter_y_elearning
+  - utter_y_galaxy
+  - utter_y_emergency
+  - utter_y_parking
+  - utter_y_courseinfo
+  - utter_y_degreeinfo
+  - utter_y_orientation
+  - utter_y_careerhelp
+  - utter_y_healthandwellness
+  - utter_y_sociallife
+  - utter_y_campusnavigation
+  - utter_y_campusresources
+  - utter_y_csmentoringcenter
+  - utter_y_hackathonguidance
+  - utter_y_gradrequirements
+  - utter_y_academicadvising 
+  - utter_y_scholarship
+  - utter_y_housing
+  - utter_y_accessibility
+  - utter_y_timemanagement
+  - utter_y_codingpractice
+  - utter_y_dininginfo
+  - utter_y_gym 
+  - utter_y_athletics
+
+
+
+
+
+
+
+
+
+
+
