@@ -1,0 +1,554 @@
+version: "3.1"
+nlu:
+- intent: y_events
+  examples: |
+    - When is the homecoming 5k race?
+    - hoco
+    - homecoming
+    - When is comet giving days?
+    - When is freshman orientation?
+    - When is homecoming?
+    - freshman orientation
+    - comet giving days
+    - Where is the comet calendar?
+    - comet calendar
+- intent: y_temoc
+  examples: |
+    - Who is Temoc?
+    - Temoc?
+    - Who is Enarc?
+    - Enarc?
+    - Who is the school mascot?
+    - UTD mascot
+    - mascot?
+- intent: y_cometdefinition
+  examples: |
+    - What is a comet?
+    - Comet?
+- intent: y_utdhistory
+  examples: |
+    - What is the history of UTD?
+    - What is the history of UT Dallas?
+    - When was UTD founded?
+    - When was UT Dallas founded?
+    - history of UT Dallas?
+    - history of UTD? 
+- intent: y_richardbenson
+  examples: |
+    - Who is Richard Benson?
+    - Richard Benson
+- intent: y_deanofstudents
+  examples: |
+    - What is Dean of Students?
+    - Dean of Students?
+    - DOS?
+    - Dean?
+- intent: y_studentsuccesscenter
+  examples: |
+    - What is student success center?
+    - student success center?
+    - SSC?
+    - Where can I get help for tutoring in my classes?
+    - Where can I get tutoring?
+- intent: y_utdlibrary
+  examples: |
+    - UTD library
+    - Who is Eugene Mcdermont?
+    - Where is the UTD Library?
+    - Where is the library?
+- intent: y_elearning
+  examples: |
+    - How to access elearning?
+    - What is elearning?
+    - elearning
+    - How to access blackboard?
+- intent: y_galaxy
+  examples: |
+    - How to access galaxy?
+    - What is galaxy?
+    - What is orion?
+    - Where to check grades?
+    - Where to enroll for classes?
+    - Where to sign up for classes?
+    - Where to view grades?
+    - Where to access enrollment information?
+- intent: y_emergency
+  examples: |
+    - Has anything happeened at UT Dallas today?
+    - What is going on on campus?
+    - Tornado warning
+    - Severe thunderstorm warning
+    - campus closed
+    - classes cancelled
+    - winter storm warning
+    - Inclement weather 
+    - tornado warning
+    - campus shooting
+    - shooting
+    - lockdown
+    - campus lockdown 
+    - What is going on at UT Dallas?
+    - UT Dallas Emergency
+    - is there a tornado warning?
+    - How to contact ut dallas police
+    - how to reach out to ut dallas police
+    - how to contact utd police
+    - how to talk to utd police
+    - how to access emergency services
+    - how to access emergency
+    - UTD Police
+    - UT Dallas Police
+    - ut dallas police
+    - utd police
+    - police
+    - cops
+- intent: y_parking
+  examples: |
+    - How to get parking permit at UT Dallas?
+    - Parking at UT Dallas?
+    - How to obtain a parking permit on campus
+    - how to get parking permit on campus
+    - how to obtain a parking permit
+    - how does parking at ut dallas work
+    - how to get DART pass on campus
+    - how to get DART pass
+    - UTD Parking
+    - Parking
+    - Parking Permit
+- intent: y_courseinfo
+  examples: |
+    - How to view course information at UT Dallas
+    - How to view course information
+    - course information
+    - how to view course info
+    - what is course information
+    - how to view coursebook
+    - how to check coursebook
+    - how to access coursebook
+    - course info 
+    - courses
+    - course 
+    - CS 1336
+    - CS 1337
+    - cs 1136
+    - cs class info
+    - CS class information
+    - cs 1337
+    - cs 2336
+    - cs 2305
+    - cs 2337
+    - cs 3305
+    - cs 3354
+    - cs 1436
+    - CS 1436
+    - cs 2340
+    - se 3305
+    - programming courses
+    - fundamental courses
+    - MATH
+    - AMS
+    - PHYS
+    - CRIM
+    - course description
+    - utd coursebook
+    - coursebook
+    - ut dallas courses
+    - utd courses
+- intent: y_degreeinfo
+  examples: |
+    - How to view degree information at UT Dallas
+    - How to view degree information
+    - degree information
+    - degree info
+    - degree
+    - what is the degree information like at ut dallas
+    - what is the degree information
+    - any degree information available
+    - any degree information
+    - computer science degree information
+    - data science degree information
+    - math degree information
+    - physics degree information
+    - UTD degree information
+    - utd degree information
+    - ut dallas degree
+    - ut dallas degree information
+- intent: y_orientation
+  examples: |
+    - orientation 
+    - freshman orientation
+    - where is freshman orientation
+    - how to view orientation information
+    - where is orientation information
+    - orientation information
+    - orientation info
+    - how to view orientation information
+    - where to check my orientation information
+- intent: y_careerhelp
+  examples: |
+    - ut dallas career center
+    - career
+    - what is the utd career center
+    - where can I get help on campus for employment
+    - where is the utd career center
+    - what is the utd job outlook like
+    - how to get an internship 
+    - how to get a job
+    - career help
+    - career center
+    - utd career center
+    - where can I get help finding work
+    - how to find job
+    - job search 
+    - job search help
+    - internship search
+    - internship help
+    - internship
+    - intern
+    - job
+- intent: y_healthandwellness 
+  examples: |
+    - health 
+    - is there a student health center 
+    - where to get help with my health 
+    - is there an on campus health center
+    - wellness
+    - health and wellness
+    - doctor
+    - student health center
+    - utd student health
+    - ut dallas health
+- intent: y_sociallife
+  examples: |
+    - social 
+    - social life
+    - campus organizations
+    - what is the social life like at ut dallas
+    - any on campus social life
+    - what is the utd social life like
+    - ut dallas social life
+    - utd social 
+    - utd social life
+- intent: y_campusnavigation
+  examples: |
+    - how to tour utd
+    - how to visit utd
+    - where can I get a tour of campus
+    - where can I get a tour of ut dallas
+    - how to tour ut dallas
+    - is there a way to tour ut dallas virtually
+    - how to visit ut dallas
+    - where is ut dallas
+    - tour utd
+    - visit utd
+    - visit ut dallas
+    - tour ut dallas
+    - campus tour
+    - campus visit
+    - map of utd
+    - utd map
+    - ut dallas map
+    - campus map
+    - see campus
+    - see utd
+    - see ut dallas
+    - map
+- intent: y_campusresources
+  examples: |
+    - campus resources
+    - are there any resources available
+    - are there any resources on campus
+    - any campus resources 
+    - are there any helpful resources
+    - what are some of the resources available on campus
+    - what are some of the campus resources available
+    - resources on campus
+    - utd resources
+    - resources
+    - ut dallas resources
+    - what are some helpful campus resources
+    - helpful resources
+- intent: y_csmentoringcenter
+  examples: |
+    - where to get tutoring for my cs courses
+    - where to get tutoring for my cs classes
+    - cs tutoring
+    - what is the computer science mentoring center
+    - what is the computer science tutoring center
+    - where is tutoring for computer science classes
+    - where is tutoring for computer science courses
+    - what is the computer science mentoring center
+    - what is cs mentor center
+    - where is the computer science tutoring
+    - cs mentor center
+    - mentor center
+    - computer science tutoring
+    - csmentorcenter
+    - computer science mentor center
+- intent: y_hackathonguidance
+  examples: |
+    - acm
+    - where to find a hackathon 
+    - is there any computer science organizations
+    - are there any computer science hackathons
+    - are there any hackathon organizations
+    - are there any computer science organizations
+    - when is the next hackathon
+    - when is the next utd hackathon
+    - does ut dallas host hackathons
+    - how to join hackutd
+    - how to join a hackathon
+    - how to join acm
+    - hackathon
+    - hackathonguidance
+    - hackutd
+    - utd hack
+    - utd hackathon
+    - ut dallas hackathon
+- intent: y_gradrequirements
+  examples: |
+    - graduation requirements
+    - what do I need to do in order to graduate
+    - how do I graduate
+    - grad requirements
+    - grad path
+    - path to graduation
+    - what are the grad requirements
+    - what do I need to do in order to get my degree
+    - what are the graduation requirements
+    - how do I find my graduation requirements
+    - what are the requirements for graduation
+    - what is the path to graduation
+    - where is my path to graduation
+    - requirements for graduation
+    - requirements to graduate
+- intent: y_academicadvising
+  examples: |
+    - academic advising
+    - academic advisor
+    - what is the academic advising at ut dallas
+    - where is academic advising 
+    - how do I find my academic advisor
+    - how do I contact my academic advisor
+    - who do I contact in order to register for my courses
+    - who I contact in order to register for my classes
+- intent: y_scholarship 
+  examples: |
+    - scholarship
+    - academic excellence scholarship
+    - how do I qualify for a scholarship
+    - what is a scholarship
+    - how to earn merit based aid
+    - are there any scholarships available at ut dallas
+    - are there any scholarships available at utd
+    - what is aes scholarship
+    - what is academic excellence scholarship
+    - merit based aid
+    - utd scholarship
+    - ut dallas scholarship
+    - scholarships at utd
+    - scholarships at ut dallas
+    - aes
+- intent: y_housing
+  examples: |
+    - housing
+    - housing at ut dallas
+    - how to get housing at ut dallas
+    - where do I get housing on campus
+    - how to get housing
+    - where do I stay on campus
+    - how to stay on campus
+    - what is university village
+    - what is residence halls
+    - what is canyon creek heights
+    - how can I stay at canyon creek heights
+    - how can I live on campus
+    - is there any information about ut dallas housing
+    - what is ut dallas housing
+    - utd housing
+    - ut dallas housing
+    - on campus housing
+    - campus residency
+    - campus housing
+    - residence halls
+    - canyon creek heights
+    - cchs
+    - reshalls
+    - university village
+    - northside
+    - freshman dorms
+    - dorms
+    - uv apartments
+    - cchs apartment
+    - cchn apartment
+    - apartments on campus
+    - utd apartments
+    - cchs
+    - cchn
+    - phase apartments
+- intent: y_accessibility
+  examples: |
+    - disability
+    - disability services
+    - accessibility
+    - accessibility services
+    - wheelchair
+    - where can I get accommodations
+    - accommodations
+    - extend exam time
+    - where can I extend my exam time 
+    - where can I get accommodations for my courses
+    - where can I get accommodations for my classes
+    - how can I get accommodations for my courses
+    - how can I get accommodations for my classes
+    - how can I get acommodations for my disability
+    - where can I get acommodations for my disability
+    - extended exam time
+- intent: y_timemanagement
+  examples: |
+    - time management
+    - how to manage time
+    - how to access time management resources
+    - how to study
+    - are there any study tips
+    - how to manage my time
+    - manage time
+    - utd time management
+    - ut dallas time management
+    - study time tips
+    - time management tips
+- intent: y_codingpractice
+  examples: |
+    - where do I learn coding
+    - how to practice coding
+    - how to learn a new language
+    - programming 
+    - how do I learn programming
+    - how to learn programming
+    - how to prepare for technical interview
+    - how to prepare for cs 1336
+    - how to prepare for my computer science programming lesson
+    - coding
+    - coding practice
+    - programming practice
+    - codecademy
+    - leetcode
+    - sololearn
+    - coding interview prep
+    - technical interview prep
+    - coding interview
+    - how to prepare for coding interview
+- intent: y_dininginfo
+  examples: |
+    - utd dining
+    - dining
+    - where to eat on campus
+    - im hungry
+    - where to get food on campus
+    - how to get food on campus
+    - what is the utd meal plan
+    - how to get the meal plan
+    - on campus dining
+    - food
+    - meal plan
+    - food options
+    - ut dallas dining
+    - dining hall
+    - dining hall west
+    - ut dallas dining hall
+    - comet meal plans
+    - meal
+    - campus food
+    - campus dining
+- intent: y_gym
+  examples: |
+    - gym
+    - ut dallas gym
+    - how to access rec center west
+    - how to access activity center
+    - where to access activity center
+    - what is the activity center
+    - what is the recreation center west
+    - where is the activity center
+    - where is the recreation center west
+    - rec center west
+    - activity center
+    - urec
+    - ut dallas recreation
+    - utd gym
+    - weight training
+    - workout
+    - where do I get a workout in
+    - how do I get a workout in
+    - how to access the on campus gym
+    - where to access the on campus gym
+    - on campus gym
+    - on campus rec
+    - utd rec
+    - utd recreation
+    - university recreation
+    - running
+    - cross training
+    - treadmill
+    - elliptical
+    - biking
+    - cycling
+    - swimming
+- intent: y_athletics
+  examples: |
+    - utd athletics
+    - athletics
+    - sports
+    - comet sports
+    - utd sports teams
+    - sport teams
+    - ut dallas athletics
+    - utd sports
+    - ncaa
+    - basketball team
+    - soccer team
+    - football team
+    - cross country team
+    - track team
+    - ut dallas cross country
+    - utd cross country
+    - utd track
+    - ut dallas track
+    - ut dallas men's sports
+    - ut dallas women's sports
+    - women's sports
+    - men's sports
+    - cross country
+    - track
+    - soccer
+    - baseball
+    - ut dallas baseball team
+    - baseball team
+    - basketball
+    - volleyball
+    - golf
+    - men sports
+    - women sports
+    - school sports
+    - school teams
+    - varsity sports
+    - varsity teams
+    - who is playing tonight
+- intent: y_bookstore
+  examples: |
+    - how do I get to the bookstore
+    - where to access the ut dallas bookstore
+    - where is the bookstore
+    - where to buy school supplies
+    - how to buy school supplies
+    - where do I purchase my graduation regalia
+    - where to purchase school supplies
+    - where do I purchase school supplies
+    - where to buy class textbooks
+    - how to buy class textbooks
+    
+
+
+
+
+

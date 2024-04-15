@@ -1,0 +1,170 @@
+version: "3.1"
+
+stories:
+  - story: y_emergency 
+    steps:
+      - intent: y_emergency
+      - action: utter_y_emergency
+
+  - story: y_events
+    steps:
+      - intent: y_events
+      - action: utter_y_events
+
+  - story: y_elearning
+    steps:
+      - intent: y_elearning
+      - action: utter_y_elearning
+
+  - story: y_galaxy
+    steps:
+      - intent: y_galaxy
+      - action: utter_y_galaxy
+
+  - story: y_temoc
+    steps:
+      - intent: y_temoc
+      - action: utter_y_temoc
+
+  - story: y_cometdefinition
+    steps:
+      - intent: y_cometdefinition
+      - actions: utter_y_cometdefinition
+
+  - story: y_utdhistory
+    steps:
+      - intent: y_utdhistory
+      - actions: utter_y_utdhistory
+
+  - story: y_richardbenson
+    steps:
+      - intent: y_richardbenson
+      - actions: utter_y_richardbenson
+
+  - story: y_deanofstudents
+    steps:
+      - intent: y_deanofstudents
+      - actions: utter_y_deanofstudents
+
+  - story: y_studentsuccesscenter
+    steps: 
+      - intent: y_studentsuccesscenter
+      - actions: utter_y_studentsuccesscenter
+
+  - story: y_utdlibrary
+    steps:
+      - intent: y_utdlibrary
+      - actions: utter_y_utdlibrary
+
+  - story: y_parking
+    steps:
+      - intent: y_parking
+      - actions: utter_y_parking
+
+  - story: y_courseinfo
+    steps:
+      - intent: y_courseinfo
+      - action: utter_y_courseinfo
+  
+  - story: y_degreeinfo
+    steps: 
+      - intent: y_degreeinfo
+      - action: utter_y_degreeinfo
+
+  - story: y_orientation
+    steps:
+      - intent: y_orientation
+      - action: utter_y_orientation
+
+  - story: y_careerhelp
+    steps: 
+      - intent: y_careerhelp
+      - action: utter_y_careerhelp
+
+  - story: y_healthandwellness
+    steps:
+      - intent: y_healthandwellness
+      - action: utter_y_healthandwellness
+
+  - story: y_sociallife
+    steps:
+      - intent: y_sociallife
+      - action: utter_y_sociallife
+
+  - story: y_campusnavigation
+    steps:
+      - intent: y_campusnavigation
+      - action: utter_y_campusnavigation
+
+  - story: y_campusresources
+    steps:
+      - intent: y_campusresources
+      - action: utter_y_campusresources
+
+  - story: y_csmentoringcenter
+    steps:
+      - intent: y_csmentoringcenter
+      - action: utter_y_csmentoringcenter
+
+  - story: y_hackathonguidance
+    steps:
+      - intent: y_hackathonguidance
+      - action: utter_y_hackathonguidance
+
+  - story: y_gradrequirements
+    steps:
+      - intent: y_gradrequirements
+      - action: utter_y_gradrequirements
+
+  - story: y_academicadvising
+    steps:
+      - intent: y_academicadvising
+      - action: utter_y_academicadvising
+
+  - story: y_scholarship
+    steps:
+      - intent: y_scholarship
+      - action: utter_y_scholarship
+
+  - story: y_housing
+    steps:
+      - intent: y_housing
+      - action: utter_y_housing
+
+  - story: y_accessibility
+    steps:
+      - intent: y_accessibility
+      - action: utter_y_accessibility
+
+  - story: y_timemanagement
+    steps:
+      - intent: y_timemanagement
+      - action: utter_timemanagement
+
+  - story: y_codingpractice
+    steps:
+      - intent: y_codingpractice
+      - action: utter_y_codingpractice
+
+  - story: y_dininginfo
+    steps:
+      - intent: y_dininginfo
+      - action: utter_y_dininginfo
+
+  - story: y_gym
+    steps:
+      - intent: y_gym
+      - action: utter_y_gym
+
+  - story: y_athletics
+    steps:
+      - intent: y_athletics
+      - action: utter_y_athletics
+
+  - story: y_bookstore
+    steps:
+      - intent: y_bookstore
+      - action: utter_y_bookstore
+
+      
+
