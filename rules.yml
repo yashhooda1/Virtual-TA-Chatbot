@@ -165,6 +165,178 @@ rules:
     steps:
       - intent: y_bookstore
       - action: utter_y_bookstore
+  
+  - rule: y_ecsadvising
+    steps:
+      - intent: y_ecsadvising
+      - action: utter_y_ecsadvising
+
+  - rule: y_ifriendprogram
+    steps: 
+      - intent: y_ifriendprogram
+      - action: utter_y_ifriendprogram
+  
+  - rule: y_internationalweek
+    steps:
+      - intent: y_internationalweek
+      - action: utter_y_internationalweek
+  
+  - rule: y_internationalstudentorientation
+    steps:
+      - intent: y_internationalstudentorientation
+      - action: utter_y_internationalstudentorientation
+
+  - rule: y_internationaladmissions
+    steps:
+      - intent: y_internationaladmissions
+      - action: utter_y_internationaladmissions
+
+  - rule: y_utddirectory
+    steps:
+      - intent: y_utddirectory
+      - action: utter_y_utddirectory
+
+  - rule: y_utdhumanresources
+    steps:
+      - intent: y_utdhumanresources
+      - action: utter_y_utdhumanresources
+
+  - rule: y_oitservicedesk
+    steps:
+      - intent: y_oitservicedesk
+      - action: utter_y_oitservicedesk
+  
+  - rule: y_techknowledgybar
+    steps:
+      - intent: y_techknowledgybar
+      - action: utter_y_techknowledgybar
+
+  - rule: y_campuslife
+    steps: 
+      - intent: y_campuslife
+      - action: utter_y_campuslife
+
+  - rule: y_greeklife
+    steps:
+      - intent: y_greeklife
+      - action: utter_y_greeklife
+
+  - rule: y_studentspaces
+    steps:
+      - intent: y_studentspaces
+      - action: utter_y_studentspaces
+
+  - rule: y_studentunion
+    steps:
+      - intent: y_studentunion
+      - action: utter_y_studentunion
+
+  - rule: y_workatutdallas
+    steps:
+      - intent: y_workatutdallas
+      - action: utter_y_workatutdallas
+
+  - rule: y_studentmedia
+    steps:
+      - intent: y_studentmedia
+      - action: utter_y_studentmedia
+
+  - rule: y_studentachievements
+    steps:
+      - intent: y_studentachievements
+      - action: utter_y_studentachievements
+  
+  - rule: y_utdtalk
+    steps:
+      - intent: y_utdtalk
+      - action: utter_y_utdtalk
+
+  - rule: y_studentcounselingcenter
+    steps:
+      - intent: y_studentcounselingcenter
+      - action: utter_y_studentcounselingcenter
+    
+  - rule: y_busservice
+    steps:
+      - intent: y_busservice
+      - action: utter_y_busservice
+
+  - rule: y_campushealthpromotion
+    steps:
+      - intent: y_campushealthpromotion
+      - action: utter_y_campushealthpromotion
+    
+  - rule: y_newdimensionsutd
+    steps:
+      - intent: y_newdimensionsutd
+      - action: utter_y_newdimensionsutd
+
+  - rule: y_utdoit
+    steps:
+      - intent: y_utdoit
+      - action: utter_y_utdoit
+
+  - rule: y_openaccesslabs
+    steps:
+      - intent: y_openaccesslabs
+      - action: utter_y_openaccesslabs
+
+  - rule: y_utdesign
+    steps:
+      - intent: y_utdesign
+      - action: utter_y_utdesign
+
+  - rule: y_utdbighowdy
+    steps:
+      - intent: y_utdbighowdy
+      - action: utter_y_utdbighowdy
+
+  - rule: y_utdimmigrationadvising
+    steps:
+      - intent: y_utdimmigrationadvising
+      - action: utter_y_utdimmigrationadvising
+
+  - rule: y_utdtoday
+    steps:
+      - intent: y_utdtoday
+      - action: utter_y_utdtoday
+
+  - rule: y_youarewelcomehere
+    steps:
+      - intent: y_youarewelcomehere
+      - action: utter_y_youarewelcomehere
+
+  - rule: y_myutd
+    steps:
+      - intent: y_myutd
+      - action: utter_y_myutd
+
+  - rule: y_academicresources
+    steps:
+      - intent: y_academicresources
+      - action: utter_y_academicresources
+
+  - rule: y_testingcenter
+    steps:
+      - intent: y_testingcenter
+      - action: utter_y_testingcenter
+
+  - rule: y_teachingresources
+    steps:
+      - intent: y_teachingresources
+      - action: utter_y_teachingresources
+
+  - rule: y_utdgrades
+    steps:
+      - intent: y_utdgrades
+      - action: utter_y_utdgrades
+
+  - rule: y_cometgivingdays
+    steps:
+      - intent: y_cometgivingdays
+      - action: utter_y_cometgivingdays
+
+      
 
     
 

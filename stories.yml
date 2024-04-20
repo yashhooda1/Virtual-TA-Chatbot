@@ -166,5 +166,178 @@ stories:
       - intent: y_bookstore
       - action: utter_y_bookstore
 
+  - story: y_ecsadvising
+    steps:
+      - intent: y_ecsadvising
+      - action: utter_y_ecsadvising
+
+  - story: y_ifriendprogram
+    steps:
+      - intent: y_ifriendprogram
+      - action: utter_y_ifriendprogram
+
+  - story: y_internationalweek
+    steps:
+      - intent: y_internationalweek
+      - action: utter_y_internationalweek
+  
+  - story: y_internationalstudentorientation
+    steps:
+      - intent: y_internationalstudentorientation
+      - action: utter_y_internationalstudentorientation
+
+  - story: y_internationaladmissions
+    steps:
+      - intent: y_internationaladmissions
+      - action: utter_y_internationaladmissions
+
+  - story: y_utddirectory
+    steps:
+      - intent: y_utddirectory
+      - action: utter_y_utddirectory
+
+  - story: y_utdhumanresources
+    steps:
+      - intent: y_utdhumanresources
+      - action: utter_y_utdhumanresources
+
+  - story: y_oitservicedesk 
+    steps:
+      - intent: y_oitservicedesk
+      - action: utter_y_oitservicedesk
+
+  - story: y_techknowledgybar
+    steps:
+      - intent: y_techknowledgybar
+      - action: utter_y_techknowledgybar
+
+  - story: y_campuslife
+    steps:
+      - intent: y_campuslife
+      - action: utter_y_campuslife
+
+  - story: y_greeklife
+    steps:
+      - intent: y_greeklife
+      - action: utter_y_greeklife
+
+  - story: y_studentspaces
+    steps:
+      - intent: y_studentspaces
+      - action: utter_y_studentspaces
+
+  - story: y_studentunion
+    steps:
+      - intent: y_studentunion
+      - action: utter_y_studentunion
+
+  - story: y_workatutdallas
+    steps:
+      - intent: y_workatutdallas
+      - action: utter_y_workatutdallas
+
+  - story: y_studentmedia
+    steps:
+      - intent: y_studentmedia
+      - action: utter_y_studentmedia
+
+  - story: y_studentachievements
+    steps:
+      - intent: y_studentachievements
+      - action: utter_y_studentachievements
+
+  - story: y_utdtalk
+    steps:
+      - intent: y_utdtalk
+      - action: utter_y_utdtalk
+
+  - story: y_studentcounselingcenter
+    steps:
+      - intent: y_studentcounselingcenter
+      - action: utter_y_studentcounselingcenter
+
+  - story: y_busservice
+    steps:
+      - intent: y_busservice
+      - action: utter_y_busservice
+
+  - story: y_campushealthpromotion
+    steps:
+      - intent: y_campushealthpromotion
+      - action: utter_y_campushealthpromotion
+
+  - story: y_newdimensionsutd
+    steps:
+      - intent: y_newdimensionsutd
+      - action: utter_y_newdimensionsutd
+
+  - story: y_utdoit
+    steps:
+      - intent: y_utdoit
+      - action: utter_y_utdoit
+
+  - story: y_openaccesslabs
+    steps:
+      - intent: y_openaccesslabs
+      - action: utter_y_openaccesslabs
+
+  - story: y_utdesign
+    steps:
+      - intent: y_utdesign
+      - action: utter_y_utdesign
+
+  - story: y_utdbighowdy
+    steps:
+      - intent: y_utdbighowdy
+      - action: utter_y_utdbighowdy
+
+  - story: y_utdimmigrationadvising
+    steps:
+      - intent: y_utdimmigrationadvising
+      - action: utter_y_utdimmigrationadvising
+
+  - story: y_utdtoday
+    steps:
+      - intent: y_utdtoday
+      - action: utter_y_utdtoday
+
+  - story: y_youarewelcomehere
+    steps:
+      - intent: y_youarewelcomehere
+      - action: utter_y_youarewelcomehere
+
+  - story: y_myutd
+    steps:
+      - intent: y_myutd
+      - action: utter_y_myutd
+
+  - story: y_academicresources
+    steps:
+      - intent: y_academicresources
+      - action: utter_y_academicresources
+
+  - story: y_testingcenter
+    steps:
+      - intent: y_testingcenter
+      - action: utter_y_testingcenter
+
+  - story: y_teachingresources
+    steps:
+      - intent: y_teachingresources
+      - action: utter_y_teachingresources
+
+  - story: y_utdgrades
+    steps:
+      - intent: y_utdgrades
+      - action: utter_y_utdgrades
+
+  - story: y_cometgivingdays
+    steps:
+      - intent: y_cometgivingdays
+      - action: utter_y_cometgivingdays
+
+      
+
+
       
 
