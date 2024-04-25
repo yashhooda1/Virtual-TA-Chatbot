@@ -33,13 +33,54 @@ intents:
   - y_gym
   - y_athletics 
   - y_bookstore
+  - y_ecsadvising
+  - y_ifriendprogram
+  - y_internationalweek
+  - y_internationalstudentorientation
+  - y_internationaladmissions
+  - y_utddirectory
+  - y_utdhumanresources
+  - y_oitservicedesk
+  - y_techknowledgybar
+  - y_campuslife
+  - y_greeklife
+  - y_studentspaces
+  - y_studentunion
+  - y_workatutdallas
+  - y_studentmedia
+  - y_studentachievements
+  - y_utdtalk
+  - y_studentcounselingcenter
+  - y_busservice
+  - y_campushealthpromotion
+  - y_newdimensionsutd
+  - y_utdoit 
+  - y_openaccesslabs
+  - y_utdesign
+  - y_utdbighowdy
+  - y_utdimmigrationadvising
+  - y_utdtoday
+  - y_youarewelcomehere
+  - y_myutd 
+  - y_academicresources
+  - y_testingcenter
+  - y_teachingresources
+  - y_utdgrades
+  - y_cometgivingdays
+  - y_utdfastfacts
+  - y_timelycareforutd
+  - y_militaryandveterancenter
+  - y_officeofresearchandinnovation
+  - y_researchlabs
+  - y_utdhistoryandtraditions
+  - y_utdadmissions
 responses:
   utter_y_events:
-    - text: "You can check more information about the upcoming event(s) at https://calendar.utdallas.edu/. The UT Dallas website should have more information about the event."
+    - text: "You can check more information about the upcoming event(s) at our website: [calendar.utdallas.edu](https://calendar.utdallas.edu/). The UT Dallas website should have more information about the event."
   utter_y_elearning:
-    - text: "E-learning also known as Blackboard Collaborate is a tool used by UTD faculty and professors to assign and give homeworks/exams and teach courses virtually online when school is not in session. You can access e-learning through this link at https://elearning.utdallas.edu/ultra/institution-page. You can access e-learning by logging in using your UT Dallas net-id and password."
+    - text: "E-learning also known as Blackboard Collaborate is a tool used by UTD faculty and professors to assign and give homeworks/exams and teach courses virtually online when school is not in session. You can access e-learning through this link at [elearning.utdallas.edu/ultra/institution-page](https://elearning.utdallas.edu/ultra/institution-page). You can access e-learning by logging in using your UT Dallas net-id and password."
   utter_y_galaxy:
-    - text: "Galaxy is an online platform used by UTD students to check grades, sign up for classes, drop classes, receive/send transcripts, and prepare for graduation. You can find more information and access to UTD galaxy through their website, https://www.utdallas.edu/galaxy/."
+    - text: "Galaxy is an online platform used by UTD students to check grades, sign up for classes, drop classes, receive/send transcripts, and prepare for graduation. You can find more information and access to UTD galaxy through their website, [utdallas.edu/galaxy/](https://www.utdallas.edu/galaxy/)."
   utter_y_temoc:
     - text: "Temoc is the current school mascot of the University of the Texas at Dallas."
   utter_y_cometdefinition:
@@ -49,59 +90,139 @@ responses:
   utter_y_richardbenson:
     - text: "Richard Benson is the current president of the University of Texas at Dallas." 
   utter_y_deanofstudents:
-    - text: "The Dean of Students at UT Dallas is a key administrative leader responsible for fostering a supportive and inclusive campus environment, overseeing student affairs, and promoting student success and well-being. You can find more information or report conduct on the UTD dean of students website, https://deanofstudents.utdallas.edu/."
+    - text: "The Dean of Students at UT Dallas is a key administrative leader responsible for fostering a supportive and inclusive campus environment, overseeing student affairs, and promoting student success and well-being. You can find more information or report conduct on the UTD dean of students website, [deanofstudents.utdallas.edu/](https://deanofstudents.utdallas.edu/)."
   utter_y_studentsuccesscenter:
-    - text: "The UT Dallas Student Success Center provides comprehensive resources, support services, and programming to empower students academically, personally, and professionally, fostering a culture of student success and achievement. You can find out more about the student success center on their website, https://studentsuccess.utdallas.edu/."
+    - text: "The UT Dallas Student Success Center provides comprehensive resources, support services, and programming to empower students academically, personally, and professionally, fostering a culture of student success and achievement. You can find out more about the student success center on their website, [studentsuccess.utdallas.edu/](https://studentsuccess.utdallas.edu/)."
   utter_y_utdlibrary:
-    - text: "The UT Dallas library serves as a vital hub of academic resources, offering extensive collections, innovative technologies, and expert assistance to support research, learning, and scholarship across diverse disciplines. You can find out more information about the UTD library on their website, https://library.utdallas.edu/."
+    - text: "The UT Dallas library serves as a vital hub of academic resources, offering extensive collections, innovative technologies, and expert assistance to support research, learning, and scholarship across diverse disciplines. You can find out more information about the UTD library on their website, [library.utdallas.edu/](https://library.utdallas.edu/)."
   utter_y_emergency: 
-    - text: "You can check the https://emergency.utdallas.edu/ for emergency alerts on campus, for faster service, please call 911 if this is an off-campus emergency, the UTD Police number is (972)-883-2222.\nYou can also reach out to emergency management at (972)-883-2420. UTD Alert UT Dallas will send text alerts in the event of an emergency, inclement weather or a disruption in normal operations.\nThe message will be sent to the mobile numbers listed in the records of students, faculty and staff. Parents and others can sign up by texting UTDALERT to 888777." 
+    - text: "You can check the [emergency.utdallas.edu/](https://emergency.utdallas.edu/) for emergency alerts on campus, for faster service, please call 911 if this is an off-campus emergency, the UTD Police number is (972)-883-2222.\nYou can also reach out to emergency management at (972)-883-2420. UTD Alert UT Dallas will send text alerts in the event of an emergency, inclement weather or a disruption in normal operations.\nThe message will be sent to the mobile numbers listed in the records of students, faculty and staff. Parents and others can sign up by texting UTDALERT to 888777." 
   utter_y_parking:
-    - text: "UT Dallas Parking Services manages parking facilities, permits, enforcement, and alternative transportation options to facilitate safe and efficient parking for students, faculty, staff, and visitors. For more information, please visit https://www.services.utdallas.edu/transit/."
+    - text: "UT Dallas Parking Services manages parking facilities, permits, enforcement, and alternative transportation options to facilitate safe and efficient parking for students, faculty, staff, and visitors. For more information, please visit [services.utdallas.edu/transit/](https://www.services.utdallas.edu/transit/)."
   utter_y_courseinfo:
-    - text: "You can search for courses and course information about a specific course through the UT Dallas guided coursebook, you can find it here at https://www.coursebook.utdallas.edu/."
+    - text: "You can search for courses and course information about a specific course through the UT Dallas guided coursebook, you can find it here at [coursebook.utdallas.edu/](https://www.coursebook.utdallas.edu/)."
   utter_y_degreeinfo:
     - text: "UT Dallas offers a wide range of undergraduate, graduate, and doctoral degree programs across various disciplines, providing students with rigorous academic training, research opportunities, and professional development to prepare them for success in their chosen fields."
   utter_y_orientation:
-    - text: "UT Dallas freshman orientation provides new students with essential information, resources, and support to navigate academic and social aspects of university life, fostering a successful transition to college. For more information, you can visit https://www.fye.utdallas.edu/orientation/."
+    - text: "UT Dallas freshman orientation provides new students with essential information, resources, and support to navigate academic and social aspects of university life, fostering a successful transition to college. For more information, you can visit [fye.utdallas.edu/orientation/](https://www.fye.utdallas.edu/orientation/)."
   utter_y_careerhelp:
-    - text: "The UT Dallas career center is dedicated to helping undergraduates, graduates students, and alumni with their career help.\nFrom personalized career advising to career fairs and everything in between, the UCC exists to help you get started in your career.\nFor more information, you can visit https://www.career.utdallas.edu/. You can also visit https://www.career.utdallas.edu/career-resource-library/ for career resources."
+    - text: "The UT Dallas career center is dedicated to helping undergraduates, graduates students, and alumni with their career help.\nFrom personalized career advising to career fairs and everything in between, the UCC exists to help you get started in your career.\nFor more information, you can visit [career.utdallas.edu/](https://www.career.utdallas.edu/). You can also visit [career.utdallas.edu/career-resource-library/](https://www.career.utdallas.edu/career-resource-library/) for career resources."
   utter_y_healthandwellness:
-    - text: "The UT Dallas student wellness center is dedicated to the health and well-being of all UT Dallas students. It offers a variety of sources related to various public health concerns. For more information, you can visit https://www.studentwellness.utdallas.edu/."
+    - text: "The UT Dallas student wellness center is dedicated to the health and well-being of all UT Dallas students. It offers a variety of sources related to various public health concerns. For more information, you can visit [studentwellness.utdallas.edu/](https://www.studentwellness.utdallas.edu/)."
   utter_y_sociallife:
-    - text: "The UT Dallas social life is very introverted and offers very few options for students. If you want to learn more about the UT Dallas social life, please visit https://www.utdallas.edu/campus-life/."
+    - text: "The UT Dallas social life is very introverted and offers very few options for students. If you want to learn more about the UT Dallas social life, please visit [utdallas.edu/campus-life/](https://www.utdallas.edu/campus-life/)."
   utter_y_campusnavigation:
-    - text: "You can view a map of UT Dallas and visit the university through an interative tour offered in person and virtually. If you want to learn more about how to navigate UTD or schedule your next tour, please visit, https://www.utdallas.edu/visitors/tour-utd/." 
+    - text: "You can view a map of UT Dallas and visit the university through an interative tour offered in person and virtually. If you want to learn more about how to navigate UTD or schedule your next tour, please visit, [utdallas.edu/visitors/tour-utd/](https://www.utdallas.edu/visitors/tour-utd/)." 
   utter_y_campusresources:
-    - text: "The UT Dallas campus resources contains information about tutoring, transcripts, academic calendar, courses, libraries, advising and testing center. For more helpful information, please visit https://www.utdallas.edu/academics/academic-resources/." 
+    - text: "The UT Dallas campus resources contains information about tutoring, transcripts, academic calendar, courses, libraries, advising and testing center. For more helpful information, please visit [utdallas.edu/academics/academic-resources/](https://www.utdallas.edu/academics/academic-resources/)." 
   utter_y_csmentoringcenter:
-    - text: "The UT Dallas Computer Science mentoring center offers tutoring and guidance for anyone taking the core basic computer science courses at UT Dallas. Tuoring is offered for CS 1436, CS 1337, CS 2305, CS 2336, CS 2337, CS 2340, CS 3305, and SE 3306. For more imformation, you can visit, https://www.csmc.utdallas.edu/."
+    - text: "The UT Dallas Computer Science mentoring center offers tutoring and guidance for anyone taking the core basic computer science courses at UT Dallas. Tuoring is offered for CS 1436, CS 1337, CS 2305, CS 2336, CS 2337, CS 2340, CS 3305, and SE 3306. For more imformation, you can visit, [csmc.utdallas.edu/](https://www.csmc.utdallas.edu/)."
   utter_y_hackathonguidance:
-    - text: "Hack UTD is UTD's largest hackathon organization that provides and organizes one of the largest hackathons in North America for students all around the world. UTD has many other CS organizations such as ACM who also sponsor and participate in various hackathons including this one where students have the chance to build career skills, projects, network, and potential job opportunities. You can visit hack UTD's website, at https://www.hackutd.co/. Or you can also check ACM's website at https://www.acmutd.co/." 
+    - text: "Hack UTD is UTD's largest hackathon organization that provides and organizes one of the largest hackathons in North America for students all around the world. UTD has many other CS organizations such as ACM who also sponsor and participate in various hackathons including this one where students have the chance to build career skills, projects, network, and potential job opportunities. You can visit hack UTD's website, at [hackutd.co/](https://www.hackutd.co/). Or you can also check ACM's website at [acmutd.co/](https://www.acmutd.co/)." 
   utter_y_gradrequirements:
-    - text: "The University reserves the right to graduate any student who has satisfactorily met all requirements for graduation. To view these requirements, you must read your degree plan and meet with academic advisor. You can also check out the course catalog and click on your school of study which has your major in it to view the degree requirements. Here is the 2023 undergraduate catalog for example, https://www.catalog.utdallas.edu/2023/undergraduate/home/."
+    - text: "The University reserves the right to graduate any student who has satisfactorily met all requirements for graduation. To view these requirements, you must read your degree plan and meet with academic advisor. You can also check out the course catalog and click on your school of study which has your major in it to view the degree requirements. Here is the 2023 undergraduate catalog for example, [catalog.utdallas.edu/2023/undergraduate/home/](https://www.catalog.utdallas.edu/2023/undergraduate/home/)."
   utter_y_academicadvising:
-    - text: "The academic advising at UT Dallas offers students the opportunity to connect with academic advisors that can help students stay on track for their degree plan and to graduate. It is mandatory for every freshman and transfer student to meet with their academic advisor at least once before they sign up for classes. You can find more information on the website at https://www.registrar.utdallas.edu/registration/academic-advising/."
+    - text: "The academic advising at UT Dallas offers students the opportunity to connect with academic advisors that can help students stay on track for their degree plan and to graduate. It is mandatory for every freshman and transfer student to meet with their academic advisor at least once before they sign up for classes. You can find more information on the website at [registrar.utdallas.edu/registration/academic-advising/](https://www.registrar.utdallas.edu/registration/academic-advising/)."
   utter_y_scholarship:
-    - text: "Scholarships are considered merit-based aid that do not have to be repaid. UT Dallas offers students many scholarships such as academic excellence scholarship to eligible students based on academic achievements. For more information, you can visit https://www.finaid.utdallas.edu/scholarships/."
+    - text: "Scholarships are considered merit-based aid that do not have to be repaid. UT Dallas offers students many scholarships such as academic excellence scholarship to eligible students based on academic achievements. For more information, you can visit [finaid.utdallas.edu/scholarships/](https://www.finaid.utdallas.edu/scholarships/)."
   utter_y_housing:
-    - text: "UT Dallas offers a variety of housing options for students from the residence halls to the university village apartments, there are plenty of housing options for students on campus. Only first-year students can apply to stay in residence halls. Non-first year students can apply to stay at Canyon Creek Heights apartments or University Village apartments on campus. There is also off-campus housing available at Northside. For more information, please visit https://www.housing.utdallas.edu/."
+    - text: "UT Dallas offers a variety of housing options for students from the residence halls to the university village apartments, there are plenty of housing options for students on campus. Only first-year students can apply to stay in residence halls. Non-first year students can apply to stay at Canyon Creek Heights apartments or University Village apartments on campus. There is also off-campus housing available at Northside. For more information, please visit [housing.utdallas.edu/](https://www.housing.utdallas.edu/)."
   utter_y_accessibility:
-    - text: "Students and employees with disabilities can access accessibility information and accommodations such as extended exam time, etc... For more information, please visit https://www.accessability.utdallas.edu/."
+    - text: "Students and employees with disabilities can access accessibility information and accommodations such as extended exam time, etc... For more information, please visit [accessability.utdallas.edu/](https://www.accessability.utdallas.edu/)."
   utter_y_timemanagement:
-    - text: "The UT Dallas student counseling center offers students an important resource for planning their time. It is important for student to prioritize important tasks in hand before doing nonimportant tasks. For more information, please visit https://www.counseling.utdallas.edu/resources/time-management/."
+    - text: "The UT Dallas student counseling center offers students an important resource for planning their time. It is important for student to prioritize important tasks in hand before doing nonimportant tasks. For more information, please visit [counseling.utdallas.edu/resources/time-management/](https://www.counseling.utdallas.edu/resources/time-management/)."
   utter_y_codingpractice:
-    - text: "Students who want to prepare for coding interviews and master their coding skills should strongly consider visiting Leetcode, SoloLearn, and Codecademy to help them learn new programming languages. To access Leetcode, please visit https://www.leetcode.com/. To access SoloLearn, please visit https://www.sololearn.com/en/. To access Codecademy, please visit https://www.codecademy.com/."
+    - text: "Students who want to prepare for coding interviews and master their coding skills should strongly consider visiting Leetcode, SoloLearn, and Codecademy to help them learn new programming languages. To access Leetcode, please visit [leetcode.com/](https://www.leetcode.com/). To access SoloLearn, please visit [sololearn.com/en/](https://www.sololearn.com/en/). To access Codecademy, please visit [codecademy.com/](https://www.codecademy.com/)."
   utter_y_dininginfo:
-    - text: "UT Dallas offers a variety of meal services for students on and off campus. There are various meal plans available to students such as comet-19, comet-14, comet-10. It is important to plan ahead for meals as dining services come on a first come first serve basis. For more information, please visit https://www.services.utdallas.edu/dining/. If you have any specific questions, please check out https://www.dineoncampus.com/utdallasdining/faqs."
+    - text: "UT Dallas offers a variety of meal services for students on and off campus. There are various meal plans available to students such as comet-19, comet-14, comet-10. It is important to plan ahead for meals as dining services come on a first come first serve basis. For more information, please visit [services.utdallas.edu/dining/](https://www.services.utdallas.edu/dining/). If you have any specific questions, please check out [dineoncampus.com/utdallasdining/faqs](https://www.dineoncampus.com/utdallasdining/faqs)."
   utter_y_gym:
-    - text: "UT Dallas offers 2 gyms for students on campus. There is the Recreation Center West which is near the freshman dorms and the Activity Center which is near the center of campus. Both Gym memberships are free for students who have paid their tuition and fees for the semester. For more information, please check out https://www.urec.utdallas.edu/."
+    - text: "UT Dallas offers 2 gyms for students on campus. There is the Recreation Center West which is near the freshman dorms and the Activity Center which is near the center of campus. Both Gym memberships are free for students who have paid their tuition and fees for the semester. For more information, please check out [urec.utdallas.edu/](https://www.urec.utdallas.edu/)."
   utter_y_athletics:
-    - text: "The UT Dallas Comets compete in a variety of NCAA approved Division III sports such as Basketball, Soccer, Volleyball, Cross Country/Track and Field, Golf, Tennis, and Baseball. Starting July 1st, 2025, UT Dallas will join the Lone Star Conference as part of the NCAA Division II. You can find more information at https://www.utdcomets.com/."
+    - text: "The UT Dallas Comets compete in a variety of NCAA approved Division III sports such as Basketball, Soccer, Volleyball, Cross Country/Track and Field, Golf, Tennis, and Baseball. Starting July 1st, 2025, UT Dallas will join the Lone Star Conference as part of the NCAA Division II. You can find more information at [utdcomets.com/](https://www.utdcomets.com/)."
   utter_y_bookstore:
-    - text: "The UT Dallas bookstore is a place where students, faculty, and alumni can purchase any school supplies such as class textbooks, notebooks, pencils, pens, and school spirit apparel. Customers can also purchase graduation regalia which is required for graduation ceremony at UT Dallas. To view the bookstore website, please visit https://www.bkstr.com/texasatdallasstore/home."
-
-
+    - text: "The UT Dallas bookstore is a place where students, faculty, and alumni can purchase any school supplies such as class textbooks, notebooks, pencils, pens, and school spirit apparel. Customers can also purchase graduation regalia which is required for graduation ceremony at UT Dallas. To view the bookstore website, please visit [bkstr.com/texasatdallasstore/home](https://www.bkstr.com/texasatdallasstore/home)."
+  utter_y_ecsadvising: 
+    - text: "The UT Dallas ECS advising is a place where ECS students can get help from their designated academic advisors on signing up for classes, dropping classes, graduation plan, etc... You can find more imformation here at [engineering.utdallas.edu/academics/undergraduate-majors/undergrad-advising/ecs-advisors/](https://engineering.utdallas.edu/academics/undergraduate-majors/undergrad-advising/ecs-advisors/)."
+  utter_y_ifriendprogram:
+    - text: "iFriend is a cultural exchange program where you can learn about how to interact with someone from another culture, make new friends, and be ready to work with global teams after graduation. You can find out more at [icp.utdallas.edu/engagement/ifriend/](https://icp.utdallas.edu/engagement/ifriend/)."
+  utter_y_internationalweek:
+    - text: "iWeek is a week of intercultural-focused programs and events that showcase international culture through food, music, performance art and more. The annual week-long event is a collaboration between ICP, student cultural organizations and departments across campus. You can find out more at [iweek.utdallas.edu/](https://iweek.utdallas.edu/)."
+  utter_y_internationalstudentorientation:
+    - text: "International Student Orientation is mandatory for all F and J graduate international students and exchange students and is optional as a resource for freshman and transfer students. You can find out more about it here at [icp.utdallas.edu/students/international-student-orientation/](https://icp.utdallas.edu/students/international-student-orientation/)."
+  utter_y_internationaladmissions:
+    - text: "International students are valued members of the UT Dallas community and are eligible to apply for undergraduate admission. Those interested in graduate studies should contact the graduate academic department of interest directly. For immigration advising and benefits processing, please refer to the International Student Services Office. You can find out more here at [enroll.utdallas.edu/apply/international-applicants/](https://enroll.utdallas.edu/apply/international-applicants/)."
+  utter_y_utddirectory:
+    - text: "The UTD directory is a place where anyone can Search for UT Dallas students, faculty and staff by entering a name, email address or campus phone number in the search box. You can find it here at [utdallas.edu/directory/](https://www.utdallas.edu/directory/)."
+  utter_y_utdhumanresources:
+    - text: "The UTD Office of Human Resources mission is to enable the success of its employees. What we do should help others be their best at what they do best. You can find their website at [hr.utdallas.edu/](https://hr.utdallas.edu/)."
+  utter_y_oitservicedesk: 
+    - text: "The office of service desk at UTD is a place where UTD students and facult can get solutions to all their tech problems ranging from troubleshooting to getting hacked. You can find it here at [oit.utdallas.edu/servicedesk/](https://oit.utdallas.edu/servicedesk/)."
+  utter_y_techknowledgybar: 
+    - text: "The TechKnowledgy Bar is a space located in the Student Union for UT Dallas students, faculty, and staff to learn about technology at UT Dallas, including getting a first-hand look at new projects and initiatives from OIT and our partners. You can find it located on the first floor at the Student Union next to the plinth."
+  utter_y_campuslife: 
+    - text: "The Campus Life at UT Dallas is known to be very introverted and reserved. If you really want to make friend, you need to put in more effort. You can find more information at [utdallas.edu/campus-life/](https://www.utdallas.edu/campus-life/)."
+  utter_y_greeklife: 
+    - text: "The Fraternity and Sorority Life vision is to become a large, developmental and inclusive fraternity and sorority community. Large not just in the sense that there are numerous fraternity and sorority members but rather that those members have a significant impact on the UT Dallas community. You can find more information at [gogreek.utdallas.edu/](https://gogreek.utdallas.edu/)."
+  utter_y_studentspaces: 
+    - text: "UT Dallas has spaces for you to study, relax, compete and eat. Places include Chess Plaza, Student Union, Gaming Wall, and Texas Instruments Plaza."
+  utter_y_studentunion:
+    - text: "The Student Union is the hub of campus activity. Whether attending an event, grabbing lunch, studying or gaming, the Student Union is where Comets come together. You can more information at [union.utdallas.edu/](https://union.utdallas.edu/)."
+  utter_y_workatutdallas:
+    - text: "UT Dallas has plenty of on campus jobs available. For more information please visit: [jobs.utdallas.edu/](https://jobs.utdallas.edu/)."
+  utter_y_studentmedia:
+    - text: "The UT Dallas runs a student media that delivers the latest news to the UTD community. Organizations include RadioUTD, The Mercury, UTD TV, and AMP. You can find out more at: [studentmedia.utdallas.edu/](https://studentmedia.utdallas.edu/)."
+  utter_y_studentachievements: 
+    - text: "UTD student achievements recaps student successes such as successful graduation rates, examination success, top employment opportunities, and medical school admissions/law school admissions. To find out more, you can go to: [oisds.utdallas.edu/student-achievements/](https://oisds.utdallas.edu/student-achievements/)."
+  utter_y_utdtalk:
+    - text: "UTD Talk is an emergency crisis for UTD students. If you are in a mental health crisis at UTD, please call (972)-883-8255."
+  utter_y_studentcounselingcenter:
+    - text: "The UT Dallas Student Counseling Center (SCC) is dedicated to providing high-quality student mental health services. For more information, please visit [counseling.utdallas.edu/](https://counseling.utdallas.edu/)."
+  utter_y_busservice:
+    - text: "The Comet Cruiser is a shuttle bus serving UT Dallas and the surrounding community. You do not need any sort of pass or identification to use this bus, but other bus and train routes do require a DART Transit Pass which you can obtain for free from the UTD Parking office. For more information please visit [services.utdallas.edu/transit/cruiser/](https://services.utdallas.edu/transit/cruiser/)."
+  utter_y_campushealthpromotion:
+    - text: "The health and safety of all Comets is our priority. We encourage all faculty, staff, and students to stay home if you have symptoms of contagious illness, and to seek medical attention if your symptoms are severe. For more information, please visit [utdallas.edu/campus-health/](https://www.utdallas.edu/campus-health/)."
+  utter_y_newdimensionsutd:
+    - text: "Help build a brighter future for UT Dallas today by donating. For more information, please visit [newdimensions.utdallas.edu/](https://newdimensions.utdallas.edu/)."
+  utter_y_utdoit:
+    - text: "The Office of Information Technology offers support via phone, chat, Atlas ticket, and in person at the TechKnowledgy Bar and our computer labs. Check out our knowledge base for answers. For more information please visit [oit.utdallas.edu/](https://oit.utdallas.edu/)."
+  utter_y_openaccesslabs:
+    - text: "UTD has many open access computer labs available to all its students and faculty for hours and important information, please visit: [engineering.utdallas.edu/about/facilities/open-access-labs/](https://engineering.utdallas.edu/about/facilities/open-access-labs/)."
+  utter_y_utdesign:
+    - text: "UTDesign is a capstone project program at UT Dallas that creates project opportunities for students, companies, and faculty to innovate and find solutions to projects. For more information, please visit: [utdesign.utdallas.edu/](https://utdesign.utdallas.edu/)."
+  utter_y_utdbighowdy:
+    - text: "UTD Big Howdy is a travel organization for UTD International students who need assistance moving in and learning more about UT Dallas. It's mission is to create a home away from home for international students. For more information, please visit [utdbighowdy.com/](https://utdbighowdy.com/)."
+  utter_y_utdimmigrationadvising:
+    - text: "The International Students and Scholars Office (ISSO) provides immigration advising to help you manage your immigration status. We offer one-on-one appointments, group advising, and live chat sessions with advisors. You can also send a message to an advisor through iComet. For more information, please visit [isso.utdallas.edu/advising/](https://isso.utdallas.edu/advising/)."
+  utter_y_utdtoday:
+    - text: "UTD Today is a magazine that has a mission to 'Bringing Comet Brilliance to Light', for more information please visit: [utdallas.edu/about-us/utd-today/](https://www.utdallas.edu/about-us/utd-today/)."
+  utter_y_youarewelcomehere:
+    - text: "UT Dallas students represent a spectrum of backgrounds, cultures and identities. While their skills, interests and goals vary, Comets respect their peers and grow as they learn from each other."
+  utter_y_myutd:
+    - text: "Every Comet has a story. Experience a day in the life of a Comet through My UTD. For more information, please visit: [myutd.utdallas.edu/](https://myutd.utdallas.edu/)."
+  utter_y_utdgrades:
+    - text: "UTD Grades is a helpful way to visualize how students did in each class at UTD by taking the grade distributions of a specific class. Users can enter a course in the search bar to find a course grade. For more information, please visit: [utdgrades.com/](https://utdgrades.com/)."
+  utter_y_cometgivingdays:
+    - text: "Comet giving days is an ultimate donation challenge for the UTD community where top donors can earn prizes for contributing the most money to the UT Dallas community. This is an event held annually at UT Dallas typically in the spring semester. For more information, please visit: [givingday.utdallas.edu/](https://givingday.utdallas.edu/)."
+  utter_y_testingcenter:
+    - text: "The Testing Center offers a 300-seat computer lab, providing UT Dallas students access to a comfortable and secure testing environment for online, paper, and hybrid exams. Students and faculty can register for exams here at: [ets.utdallas.edu/testing-center](https://ets.utdallas.edu/testing-center)."
+  utter_y_academicresources:
+    - text: "UTD Academic Resources contains information about tutoring, transcripts, academic calendar, courses, libraries, advising and testing center. For more information, please visit [utdallas.edu/academics/academic-resources/](https://www.utdallas.edu/academics/academic-resources/)."
+  utter_y_teachingresources:
+    - text: "UTD Teaching Resources contains helpful teacher resources that can be used by UTD faculty to better assist students in learning and teaching the material. For more information, please visit [ctl.utdallas.edu/teaching/resources/](https://ctl.utdallas.edu/teaching/resources/)."
+  utter_y_utdfastfacts: 
+    - text: "Get to know about UT Dallas, a growing public research university with 148 degree programs and more than 30,000 students. For more information, please visit: https://www.utdallas.edu/about-us/fast-facts/."
+  utter_y_timelycareforutd:
+    - text: "All UTD students have free and quick access to TimelyCare, a mental health app where you can get in-the-moment support, schedule counseling sessions, health coaching, psychiatry services, self-help, text support, and much more! Interpreters are also available upon request. Use your UTD NetID/password to get started. For more information, please visit https://counseling.utdallas.edu/."
+  utter_y_militaryandveterancenter:
+    - text: "The Military and Veteran Center (MVC) provides comprehensive support for military-affiliated students, from admission through graduation, to facilitate the achievement of their academic and career goals. You can find more information at https://veterans.utdallas.edu/."
+  utter_y_officeofresearchandinnovation:
+    - text: "The Office of Research and Innovation fosters the advancement of cutting-edge research discoveries and technology at the University of Texas at Dallas, an innovative institution in the heart of North Texas that has achieved Tier One national research status. You can find more information at https://research.utdallas.edu/."
+  utter_y_researchlabs:
+    - text: "UT Dallas has a list of available labs for research study. For more information, please visit https://labs.utdallas.edu/."
+  utter_y_utdhistoryandtraditions:
+    - text: "The University of Texas at Dallas was founded by bold innovators whose vision and accomplishments paved the way for a bright future. For more information, please visit https://www.utdallas.edu/about-us/history-traditions/."
+  utter_y_utdadmissions:
+    - text: "Join a rising public research university with top programs in STEM, management, liberal arts and social sciences. Explore the application process, admission resources and more. For more information, please visit https://www.utdallas.edu/admissions/."
 
 session_config:
   session_expiration_time: 60
@@ -140,6 +261,47 @@ actions:
   - utter_y_gym 
   - utter_y_athletics
   - utter_y_bookstore
+  - utter_y_ecsadvising
+  - utter_y_ifriendprogram
+  - utter_y_internationalweek
+  - utter_y_internationalstudentorientation
+  - utter_y_internationaladmissions
+  - utter_y_utddirectory
+  - utter_y_utdhumanresources
+  - utter_y_oitservicedesk
+  - utter_y_techknowledgybar
+  - utter_y_campuslife
+  - utter_y_greeklife
+  - utter_y_studentspaces
+  - utter_y_studentunion
+  - utter_y_workatutdallas
+  - utter_y_studentmedia
+  - utter_y_studentachievements
+  - utter_y_utdtalk
+  - utter_y_studentcounselingcenter
+  - utter_y_busservice
+  - utter_y_campushealthpromotion
+  - utter_y_newdimensionsutd
+  - utter_y_utdoit
+  - utter_y_openaccesslabs
+  - utter_y_utdesign
+  - utter_y_utdbighowdy
+  - utter_y_utdimmigrationadvising
+  - utter_y_utdtoday
+  - utter_y_youarewelcomehere
+  - utter_y_myutd
+  - utter_y_academicresources
+  - utter_y_testingcenter
+  - utter_y_teachingresources
+  - utter_y_utdgrades
+  - utter_y_cometgivingdays
+  - utter_y_utdfastfacts
+  - utter_y_timelycareforutd
+  - utter_y_militaryandveterancenter
+  - utter_y_officeofresearchandinnovation
+  - utter_y_researchlabs
+  - utter_y_utdhistoryandtraditions
+  - utter_y_utdadmissions
 
 
 

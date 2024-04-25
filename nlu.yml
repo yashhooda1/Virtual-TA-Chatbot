@@ -546,6 +546,399 @@ nlu:
     - where do I purchase school supplies
     - where to buy class textbooks
     - how to buy class textbooks
+- intent: y_ecsadvising
+  examples: |
+    - How do I access my ecs advisors?
+    - Who do I reach out to for computer science advising?
+    - Who do I reach out to for ECS advising?
+    - Who is my CS advisor?
+    - Who is my ECS advisor?
+    - How to access my advisor?
+    - Who is academic advisor?
+    - ecs advising
+    - ecs advisor
+    - cs advisor
+    - computer science advising
+- intent: y_ifriendprogram
+  examples: |
+    - How do I make friends?
+    - What is the ifriend program?
+    - How to make friends as an international student?
+    - Who wants to be my friend?
+    - ifriend program
+    - ifriend
+- intent: y_internationalweek
+  examples: |
+    - What is the international week at UTD?
+    - What is the international week at UT Dallas?
+    - When is the international week at UTD?
+    - When is the international week at UT Dallas?
+    - International Week at UTD
+    - International Week
+- intent: utter_y_internationalstudentorientation
+  examples: |
+    - What is the international student orientation at UTD?
+    - International Student Orientation
+    - ISO
+    - international student orientation
+    - when is the international student orientation at ut dallas?
+    - when is the ISO at utd?
+- intent: y_internationaladmissions
+  examples: |
+    - How to get in to ut dallas as an international student?
+    - International student admissions?
+    - What is the admissions process like as an international student at UT Dallas?
+    - How to get into UT Dallas as an international student?
+    - How to get into UTD as an international student?
+- intent: y_utddirectory
+  examples: |
+    - Where can I find the directory?
+    - Where is the directory
+    - Where can I find the ut dallas student directory
+    - where is the directory itself
+    - Where can I find the contact information for a student at ut dallas?
+    - Where is the contact information for a student
+    - Where is the contact information for a professor
+    - Where can I find the contact information for a professor at ut dallas
+    - Where can I find the ut dallas directory
+    - Where is the ut dallas directory
+    - UTD directory
+    - ut dallas directory
+- intent: y_utdhumanresources
+  examples: |
+    - Where can I find HR at UTD?
+    - human resources at ut dallas
+    - Where can I find human resources?
+    - human resources
+    - HR at UTD
+    - UTD human resources
+- intent: y_oitservicedesk
+  examples: |
+    - When is the oit service desk open?
+    - oit service desk
+    - oit desk
+    - Hours for OIT service desk
+    - What are the hours for OIT service desk?
+    - OIT service desk
+    - service desk
+    - Where can I get my email fixed?
+    - Where can I fix my duo authentication?
+    - Where can I get my online troubleshooting issue fixed?
+- intent: y_techknowledgybar
+  examples: |
+    - techknowledgybar
+    - Where can I get my laptop fixed?
+    - Where can I get my computer fixed?
+    - Where can I fix my online DUO authentication in person?
+    - Where can I fix my laptop charger?
+    - Where can I charge my laptop?
+    - Where can I charge my phone?
+    - Where can I get assistance regarding using MS teams
+    - Where can I get assistance using my laptop?
+    - Microsoft 365/teams consulting
+    - Remote Work/Learn Setup
+    - Freshman comet laptop setup
+    - Where can I get help with Microsoft Teams?
+- intent: y_campuslife
+  examples: |
+    - What is the campus life like at UTD?
+    - Campus Life at UTD?
+    - Campus Life at UT Dallas
+- intent: y_greeklife
+  examples: |
+    - Greek life at UT Dallas
+    - Fraternities and Sororities 
+    - Greek Life
+    - Frats
+    - Sororities
+    - Kappa Alpha Sigma
+    - UTD fraternities and sororities
+    - ut dallas fraternities and sororities
+    - utd chapters
+    - UTD chapters
+    - UT Dallas campus fraternities and sororities
+    - UT Dallas chapters
+- intent: y_studentspaces
+  examples: |
+    - Any student spaces on campus?
+    - Any student spaces on campus?
+    - Any on campus student spaces?
+    - Student spaces?
+    - Any cool places to hangout on campus?
+    - What are some cool places to study on campus?
+    - What are some study locations on campus?
+    - Any study areas?
+    - Where to hangout on campus?
+- intent: y_studentunion
+  examples: |
+    - Student Union
+    - studentunion
+    - Where is the student union on campus?
+    - What is the student union?
+    - UT Dallas student union
+    - SU
+- intent: y_workatutdallas
+  examples: |
+    - Where can I find work at UTD?
+    - work at ut dallas
+    - ut dallas jobs
+    - on campus work
+    - on campus jobs
+    - Where can I find work on campus
+    - Where can I find work at UT Dallas
+    - UTD jobs
+- intent: y_studentmedia
+  examples: |
+    - UT Dallas student media
+    - utd student media
+    - student media
+    - The Mercury
+    - RadioUTD
+    - UTDTV
+    - on campus media
+    - ut dallas media
+    - AMP
+    - studentmedia
+    - the mercury
+- intent: y_studentachievements
+  examples: | 
+    - UT Dallas student achievements
+    - Student achievements 
+    - UTD student achievements
+    - Where can I find any accomplishments of students at UT Dallas?
+    - What are the potential outcomes for students at UT Dallas?
+- intent: y_utdtalk
+  examples: |
+    - UTD Talk
+    - I need to talk to someone now
+    - I am in a mental health crisis
+    - Who can I call for mental health crisis
+    - I need to speak to a therapist
+- intent: y_studentcounselingcenter
+  examples: |
+    - Where can I find the counseling center at UT Dallas?
+    - UTD student counseling center
+    - UT Dallas counseling center
+    - counseling center
+    - Where can I see an on campus therapist?
+    - UT Dallas therapist
+    - student counseling center
+    - I am struggling mentally and I need help
+- intent: y_busservice
+  examples: |
+    - Comet Cruiser
+    - UTD Bus Station
+    - UTD Bus Service
+    - Bus Service
+    - Where can I find the comet cruiser?
+    - UT Dallas bus station
+    - UT Dallas bus service
+    - DART service 
+    - UTD DART 
+    - public transportation
+    - How to get around without a car?
+    - How to travel around without a car?
+    - How to travel without car
+    - How to get to campus without a car
+- intent: y_campushealthpromotion
+  examples: |
+    - UTD Campus Health 
+    - Campus Health Promotion
+    - How can I promote health on campus
+    - On Campus health
+    - What is ut dallas safety guidelines for students?
+- intent: y_newdimensionsutd 
+  examples: |
+    - Where can I donate to UT Dallas?
+    - Where can I donate to UTD?
+    - UTD donation
+    - new dimensions utd
+    - newdimensions utd
+    - newdimensionsutd
+    - newdimensionsutdallas
+    - ut dallas donation
+- intent: y_utdoit
+  examples: |
+    - Office of Information Technology
+    - UT Dallas OIT
+    - Where can I get any technical help?
+    - UTD OIT
+    - information technology
+- intent: y_openaccesslabs
+  examples: |
+    - Where can I find any open computer labs?
+    - What are the hours of the computer labs?
+    - Open Access Labs
+    - Computer Labs on campus
+    - Open Computer Labs
+    - Where can I print?
+    - Where to print?
+    - UTD computer labs
+    - ut dallas computer labs
+- intent: y_utdesign
+  examples: |
+    - UTdesign 
+    - UTDesign
+    - On campus projects
+    - capstone project
+    - UTD design 
+    - UTD design projects
+    - senior design projects
+    - UTDesign projects
+    - senior projects
+- intent: y_utdbighowdy
+  examples: |
+    - utdbighowdy
+    - How can I get travel assistance to campus from airport as an international student?
+    - International Student Travel Center
+    - International Student travel assistance
+    - How can I get travel assistance to campus as an international student?
+    - UTD international student travel
+- intent: y_utdimmigrationadvising
+  examples: |
+    - Where can I get immigration information?
+    - Where can I get help with my Visa?
+    - Where can I get help with my immigration status?
+    - UT Dallas immigration services
+    - immigration services
+    - utd immigration 
+    - visa services
+- intent: y_utdtoday
+  examples: |
+    - Any newsflash on campus?
+    - What are some cool things happening around campus?
+    - Any cool things at UT Dallas?
+    - utdtoday
+    - Newsflash
+    - UT Dallas newspaper
+    - Comet Newspaper
+- intent: y_youarewelcomehere
+  examples: |
+    - Do I belong here?
+    - Am I welcome here?
+    - What is you are welcome here?
+    - youarewelcomehere
+    - you are welcome here
+- intent: y_myutd
+  examples: |
+    - Experience a day in the life of a comet
+    - day in the life of a utd student
+    - day in the life
+    - myutd
+    - day in the life of a ut dallas student
+- intent: y_academicresources
+  examples: |
+    - What are some helpful academic resources on campus?
+    - Any academic resources on campus?
+    - What are some academic resources?
+    - Any helpful academic resources?
+    - academic resources
+    - UT Dallas academic resources
+    - UTD academic resources
+- intent: y_testingcenter
+  examples: |
+    - Testing Center
+    - Where can I take the ALEKS exam?
+    - Where can I take the exam?
+    - Where to test?
+    - Where can I test?
+    - How to test?
+    - On campus testing center
+    - UT Dallas testing center
+    - UTD testing center
+- intent: y_teachingresources
+  examples: |
+    - Teaching Resources
+    - Where can I access my teaching resources?
+    - Where can I access teaching resources?
+    - Teaching assistance
+    - TA assistance
+    - Resources for professors
+    - Faculty Resources
+- intent: y_utdgrades
+  examples: |
+    - UTDgrades
+    - Where can I see how students did in each class?
+    - Where can I access the grade distribution for each class?
+    - UT Dallas class grade distribution?
+    - Grades for UT Dallas students?
+    - UT Dallas student grades?
+    - What are some helpful information for signing up for classes?
+- intent: y_cometgivingdays
+  examples: |
+    - Comet Giving Days
+    - What is comet giving days
+    - cometgivingdays
+    - When is the comet giving days event?
+- intent: y_utdfastfacts
+  examples: |
+    - What are some helpful information about UTD?
+    - Any fast facts about UT Dallas?
+    - Fast Facts
+    - What are some fast facts about UT Dallas?
+    - What are some fast facts about UTD?
+    - any quick facts about utd?
+- intent: y_timelycareforutd
+  examples: |
+    - What are some resources for dealing with a mental health crisis?
+    - What are some resources for dealing with a mental breakdown?
+    - Mental health app for UTD students
+    - How to access timelycare for UTD students?
+    - I am going through a mental health crisis
+    - I am going through depression
+    - UTD app for mental health
+    - What is timelycare for UTD students?
+- intent: y_militaryandveterancenter
+  examples: |
+    - Any resources for military and veterans at UTD?
+    - What are some resources for military members at UTD?
+    - Military members at UTD?
+    - Where can I access the veteran center at UTD?
+    - Military veteran center at UTD?
+    - UTD Military and veteran center
+    - military and veteran center
+    - veteran center at UTD?
+    - UT Dallas military
+    - UTD military
+    - UTD veteran
+    - UT Dallas veteran
+- intent: y_officeofresearchandinnovation
+  examples: | 
+    - What is the office of research and innovation?
+    - Where can I do research and innovation?
+    - UTD Research
+    - Any information for research and innovation?
+    - Where can I perform research and innovation?
+    - Any helpful information for research and innovation?
+- intent: y_researchlabs
+  examples: |
+    - Where can I find research labs on campus?
+    - Where are the lab locations on campus?
+    - Research labs on campus?
+- intent: y_utdhistoryandtraditions
+  examples: |
+    - What are some UTD traditions?
+    - What are some traditions?
+    - What are some history and traditions we have at utd?
+    - What are some history and traditions we have at ut dallas?
+    - Any history and traditions?
+    - UTD history and traditions
+- intent: y_utdadmissions
+  examples: |
+    - How do I get in to UT Dallas?
+    - UT Dallas admissions
+    - UTD admissions
+    - What is the admissions process like at UTD?
+    - What is the admissions process like at UT Dallas?
+    - What GPA do I need to get into utd?
+    - What GPA do I need to get into UT Dallas?
+    - What SAT score do I need to get into utd?
+    - What SAT score do I need to get into ut dallas?
+    - SAT score and GPA I need to get in?
+    - How to get into ut dallas?
+    - How to get into utd?
+    - Admissions process at utd?
+
     
 
 
